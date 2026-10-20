@@ -390,3 +390,19 @@ The frames are taken from Indic scripture. The exact formulas are to be drafted 
 | Too many loanwords hurting readability | Loanwords limited to names and core untranslatables (PENDING) |
 | Licence share-alike on parse data | Keep parse data separate; choose the rendering's licence knowingly (D-10) |
 | Agents drifting from the objective | §1.1 is read-only to agents; §1.3 records the rejected proposals |
+
+---
+
+## 13. Visual cards (PENDING)
+
+Every śloka card is built in two layers, so the Sanskrit on screen is always exactly the mūla.
+
+1. **Scene image.** It is generated on the Forge by a local model from the card spec's `scene_brief`. The model never paints text. Your likeness comes only from your own photos. Each image is labelled synthetic, and the model licence is logged per asset (M10).
+2. **Text layer.** Code sets the title, śloka, verse reference and English gloss from the repository (`visual/render_card.py`), using an open-licensed Sanskrit typeface (Tiro Devanagari Sanskrit, OFL). The English gloss comes from a public-domain translation (KJV or WEB, R10).
+
+Card spec (`visual/specs/<id>.json`) fields: id, book, śloka, ref, title_deva, title_iast, gloss, gloss_source, theme (the bhāṣya template it belongs to), scene_brief, forbid, background, label.
+
+Rules:
+- **Title word.** It is a word that occurs in the śloka itself, or the bhāṣya's bridge word labelled as a bridge.
+- **Symbols.** No deity body is combined with Christian symbols (Section 299 BNS). Indic and biblical imagery sit side by side, never fused.
+- **Approval.** Ashank approves the look once per series. After that, a separate QA agent checks the spelling against the mūla, the verse reference, the licences and the forbid list on every card. A sample goes to the daily digest.
