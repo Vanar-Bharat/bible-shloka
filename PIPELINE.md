@@ -1,6 +1,6 @@
 # Pipeline: how this rendering is made with code
 
-Status: **draft for ratification** (20 Oct 2026). This file turns the objective, the ratified rules and the pilot corrections into a build specification that agents and code can follow. It does not change the objective.
+This file turns the objective, the ratified rules and the pilot corrections into a build specification that agents and code can follow. It does not change the objective.
 
 Position labels used throughout:
 
@@ -48,7 +48,7 @@ Ashank's own words, recorded verbatim. They override everything else in this fil
 - **Attributed terms:** "Isha Messiah" and "Mleccha" are cited to the Bhaviṣya Purāṇa, with a dating note: scholars place the Pratisarga Parva in the 18th-19th century. Who made the additions is Ashank's hypothesis. Dokter (2026) traces lineages in Pratisargaparvan 4.11-20 to Śaṅkara, Rāmānanda and Kṛṣṇa Caitanya, with an emphasis on Gauḍīya Vaiṣṇavism. *Varṇasaṅkara* is cited to Gītā 1.41-42. None of these terms is used in the mūla.
 - **Precedents for the ṛṣi-by-conduct theme (B-BRIDGE):** Satyakāma Jābāla in Chāndogya Upaniṣad 4.4, whose father was unknown and who was accepted by Gautama for his truthfulness. The Gospels' own data sits beside it: Jesus is a *tektōn* (artisan), and his foster-father is "of David's house" (Luke 1:27).
 
-### 1.1 The objective (RATIFIED by Ashank, 20 Oct 2026; v5, a synthesis of v4 and §1.0)
+### 1.1 The objective (RATIFIED by Ashank, 20 Oct 2026)
 
 > **A Vedāntic rendering of the Bible**
 >
@@ -62,7 +62,6 @@ Ashank's own words, recorded verbatim. They override everything else in this fil
 >
 > **Discipline.** The text is faithful and the commentary is true to context. The charge that the Bible's polemic condemns Indic practice is answered in the commentary, never by altering the text. Every gap between biblical and Indic meaning is disclosed, and every bridge is labelled with whose it is. The work acknowledges that it was made with AI's study of each civilisation in its own context.
 
-v4, now superseded: "Render the complete Bible (66 books) from the Hebrew/Aramaic and Greek originals into Sanskrit śloka. Vedānta is the medium of meaning, Jesus' life and message are the interpretive key, and every gap between biblical and Indic meaning is disclosed."
 
 - **Name** (Claude's condition, accepted in the thread): *a Vedāntic rendering of the Bible*.
 - **Form:** a faithful mūla, plus labelled bhāṣyas (commentaries). The mūla follows the source. The bhāṣya carries interpretation.
@@ -84,7 +83,7 @@ These build on the objective. They do not replace it.
 
 | Proposal | Rejected because (Ashank) |
 |---|---|
-| A Gospels-centred scope (v3) | "Force fit"; it makes the translation incomplete |
+| A Gospels-centred scope | "Force fit"; it makes the translation incomplete |
 | Sanskrit words for biblical concepts in the mūla (a hybrid rule) | Source gender and sound must stay authentic; Sanskrit equivalents go in the bhāṣya |
 | The "Pentecost" correction to the objective | Not ratified |
 | Restating the purpose as "let the reader test Indic categories against Jesus" (20 Oct) | A force fit that rejected the earlier objective instead of building on it |
