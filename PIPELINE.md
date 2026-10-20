@@ -364,7 +364,7 @@ The frames are taken from Indic scripture. The exact formulas are to be drafted 
 | D-01 | How John 7:53-8:11 is sourced and placed | John 7-8 |
 | D-02 | How passages the critical text brackets are marked | Mark 16 and others |
 | D-03 | Ketiv/Qere rule | All Hebrew books |
-| D-04 | Book order and versification mapping | Publication |
+| D-04 | Book order and versification mapping. Proposed reading order: Part I *Jesus* (Matthew, Mark, Luke, John); Part II *The covenant he lived and read* (the Hebrew Bible in Tanakh order, Torah–Prophets–Writings, the order Luke 24:44 names); Part III *The legacy interpreted* (Acts, James, 1–2 Peter, 1–3 John, Jude, Hebrews, Revelation, then Paul's letters last, with the seven undisputed letters before the disputed ones). The canonical order and versification are mapped in the apparatus. Precedent: a few Greek minuscules already place Paul's letters at the end | Publication |
 | D-05 | Devanagari mark for ʿayin | Any ʿayin word |
 | D-06 | Fixed written form of the Name | All books |
 | D-07 | Licensed lexicon for glosses | S0, S7 |
