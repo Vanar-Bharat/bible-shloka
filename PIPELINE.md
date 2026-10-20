@@ -373,6 +373,7 @@ The frames are taken from Indic scripture. The exact formulas are to be drafted 
 | D-10 | Licence for this rendering (compatible with CC BY 4.0 and the CC BY-SA parse data) | Publication |
 | D-11 | Ratify the method items in §1.3 | Templates B-LAW, B-XREF, B-GAP |
 | D-12 | Ratify the review-handling rule | Formal status of S6 |
+| D-13 | Nag Hammadi works (reviewer finding, ChatGPT, 20 Oct 2026; 18 works proposed). Proposed handling: they never enter the mūla. First they serve as sources for bhāṣya voices (Gnostic voice, B-TRI, B-GURU contrast), starting with Thomas, Philip, Trimorphic Protennoia and the Tripartite Tractate. A separate labelled supplementary volume may follow after the 66 books, rendered from licensed Coptic texts (and the Greek fragments where they exist), each with a critical introduction | Supplement scope; a Coptic text licence is needed first |
 
 ---
 
