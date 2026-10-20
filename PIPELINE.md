@@ -35,10 +35,18 @@ Ashank's own words, recorded verbatim. They override everything else in this fil
 >
 > Consequently, the enduring relevance of Jesus to a world fractured by identity politics is not that his followers escaped identity altogether. It is that his teachings provide a recurring basis for judging whether any identity—religious, ethnic, familial or political—has become an excuse for abandoning moral responsibility.
 
+**Ashank's clarifications (20 Oct 2026, his positions):**
+- **The pūrvapakṣa is understood, not dismissed.** It is the ground on which the uttarapakṣa's meaning is sought, as with the Uttara Kāṇḍa in relation to the earlier books of the Rāmāyaṇa.
+- **The Bhaviṣya Purāṇa was amended continually.** Events in Indian settings were added over time, probably with the collaboration of the four Śaṅkarācārya seats and the brahmin and sādhu orders they controlled.
+- **Varṇasaṅkara gives Jesus an edge.** In the Indic lens he may be seen as a śūdra by status who reached the status of a ṛṣi, and that is itself the highest respect to him.
+- **Understanding Jesus as Guru means detaching from the Church's vested agenda.**
+
 **How the purpose shapes the pipeline (Claude's proposals, PENDING):**
-- **The pūrvapakṣa is stated at full strength.** In Indian dialectic the opponent's view must be given completely and fairly before it is answered. So the Hebrew Bible keeps a full Jewish-reading bhāṣya in its own voice (template B-PURVA), not only a Christian reading of it.
-- **The identity test.** Every passage on lineage, purity, priesthood, the covenant people or the nations gets a B-ID note: what identity claims, and where the text ties worth to conduct.
-- **"Isha Messiah", "Mleccha" and "Varnasankari" are attributed terms.** "Isha Messiah" and "Mleccha" come from the Bhavishya Purana passage, which scholars date to the 18th or 19th century. *Varṇasaṅkara* is Arjuna's term in Gītā 1.41-42. In the bhāṣya each term is cited to its source and labelled as Ashank's framing. None is used in the mūla.
+- **B-PURVA:** the Hebrew Bible keeps a full bhāṣya in the Jewish reading's own voice, at full strength. The New Testament's meaning is then read against that ground.
+- **B-ID, the identity test:** every passage on lineage, purity, priesthood, the covenant people or the nations notes what identity claims and where the text ties worth to conduct.
+- **B-GURU, the Guru reading (Ashank's voice):** a separate bhāṣya reads Jesus from the texts alone, without church doctrine. Church teaching appears only in its own labelled "Christian tradition" voice, never as the default reading.
+- **Attributed terms:** "Isha Messiah" and "Mleccha" are cited to the Bhaviṣya Purāṇa, with a dating note: scholars place the Pratisarga Parva in the 18th-19th century. Who made the additions is Ashank's hypothesis. Dokter (2026) traces lineages in Pratisargaparvan 4.11-20 to Śaṅkara, Rāmānanda and Kṛṣṇa Caitanya, with an emphasis on Gauḍīya Vaiṣṇavism. *Varṇasaṅkara* is cited to Gītā 1.41-42. None of these terms is used in the mūla.
+- **Precedents for the ṛṣi-by-conduct theme (B-BRIDGE):** Satyakāma Jābāla in Chāndogya Upaniṣad 4.4, whose father was unknown and who was accepted by Gautama for his truthfulness. The Gospels' own data sits beside it: Jesus is a *tektōn* (artisan), and his foster-father is "of David's house" (Luke 1:27).
 
 > Render the complete Bible (66 books) from the Hebrew/Aramaic and Greek originals into Sanskrit śloka. Vedānta is the medium of meaning, Jesus' life and message are the interpretive key, and every gap between biblical and Indic meaning is disclosed.
 
@@ -253,6 +261,7 @@ Every bhāṣya block is labelled with three things:
 | B-GAP | Places where the text is silent or disputed (PENDING addition 5) | What the text does not say, what traditions add, sources |
 | B-PURVA | Hebrew Bible passages (§1.0, PENDING) | The Jewish reading in its own voice and at full strength, then the New Testament's reinterpretation |
 | B-ID | Passages on lineage, purity, priesthood, covenant or the nations (§1.0, PENDING) | What identity claims; where the text ties worth to conduct; later institutional use |
+| B-GURU | Gospel passages (§1.0, PENDING) | Jesus as Guru read from the texts alone (Ashank's voice); church doctrine kept only in its own labelled voice |
 | B-BRIDGE | Indic analogies (Prahlāda, nara-bali, avatāra and others) | Whose bridge it is, where it matches, where it does not |
 
 ### 6.5 Evidence notes in the bhāṣya
