@@ -1,54 +1,21 @@
 # Pipeline: how this rendering is made with code
 
-This file turns the objective, the ratified rules and the pilot corrections into a build specification that agents and code can follow. It does not change the objective.
+This is the project's shared working document. It sets out why the work exists, what it makes, and how agents and code make it, and it carries the corrections learned in the pilot. The project lead ratifies decisions. Agents build and propose, and they never change §1.1.
 
 Position labels used throughout:
 
 | Label | Meaning |
 |---|---|
-| **RATIFIED** | Ashank has ratified it. Binding. Changed only by new evidence, never by new framing. |
-| **PENDING** | Claude's proposal. Not binding until Ashank ratifies. |
-| **OPEN** | A decision nobody has made yet. Work that depends on it waits. |
-| **REJECTED** | Ashank rejected it. Recorded so no agent re-proposes it. |
-
-Ashank's own documents override everything in this file.
+| **RATIFIED** | Agreed and fixed. Changed only by new evidence, never by new framing. |
+| **PENDING** | Proposed. Not binding until ratified. |
+| **OPEN** | Not yet decided. Work that depends on it waits. |
+| **REJECTED** | Considered and set aside. Recorded so no agent proposes it again. |
 
 ---
 
-## 1. Objective
+## 1. Purpose and objective
 
-### 1.0 Purpose: why the work exists (Ashank's statement, 20 Oct 2026)
-
-Ashank's own words, recorded verbatim. They override everything else in this file. §1.1 is *what* is made; this section is *why*.
-
-> The Bible can be a valuable participant in humanity's moral dialogue without becoming humanity's exclusive moral constitution.
->
-> Read through the Indian dialectical framework of Pūrvapakṣa and Uttarapakṣa, the Old Testament preserves the theological, legal and civilizational struggles of the Israelite covenant, while the New Testament reinterprets that inheritance through the life, teachings, death and resurrection of Jesus Christ.
->
-> At the centre of the Christian narrative stands a man whose birth was surrounded by unusual circumstances and whose parentage became a subject of controversy. Born into a world in which lineage, paternal legitimacy, priestly ancestry and communal belonging carried immense social significance, Jesus challenged the proposition that inherited identity could establish moral superiority.
->
-> He did not systematically abolish the social hierarchies of his age. Instead, he questioned their claim to determine spiritual worth. He located moral authority in humility, compassion, faithfulness and conduct, while redefining the boundaries of spiritual kinship.
->
-> His execution demonstrated the power of established institutions to destroy an individual. Yet the survival and expansion of the movement formed around him demonstrated that physical defeat need not extinguish moral influence.
->
-> What emerged was not the disappearance of inherited identities, but a new and contested claim: that people divided by ancestry, social status and national belonging could participate in a shared spiritual community. This was the reason how Isha Messiah emerged as spiritual leader of Mleccha in a Varnasankari world. An Indian translation with Indic lens is needed since Christianity itself subsequently developed institutions and boundaries that could reproduce the very forms of exclusion its moral teachings were capable of challenging.
->
-> Consequently, the enduring relevance of Jesus to a world fractured by identity politics is not that his followers escaped identity altogether. It is that his teachings provide a recurring basis for judging whether any identity—religious, ethnic, familial or political—has become an excuse for abandoning moral responsibility.
-
-**Ashank's clarifications (20 Oct 2026, his positions):**
-- **The pūrvapakṣa is understood, not dismissed.** It is the ground on which the uttarapakṣa's meaning is sought, as with the Uttara Kāṇḍa in relation to the earlier books of the Rāmāyaṇa.
-- **The Bhaviṣya Purāṇa was amended continually.** Events in Indian settings were added over time, probably with the collaboration of the four Śaṅkarācārya seats and the brahmin and sādhu orders they controlled.
-- **Varṇasaṅkara gives Jesus an edge.** In the Indic lens he may be seen as a śūdra by status who reached the status of a ṛṣi, and that is itself the highest respect to him.
-- **Understanding Jesus as Guru means detaching from the Church's vested agenda.**
-
-**How the purpose shapes the pipeline (Claude's proposals, PENDING):**
-- **B-PURVA:** the Hebrew Bible keeps a full bhāṣya in the Jewish reading's own voice, at full strength. The New Testament's meaning is then read against that ground.
-- **B-ID, the identity test:** every passage on lineage, purity, priesthood, the covenant people or the nations notes what identity claims and where the text ties worth to conduct.
-- **B-GURU, the Guru reading (Ashank's voice):** a separate bhāṣya reads Jesus from the texts alone, without church doctrine. Church teaching appears only in its own labelled "Christian tradition" voice, never as the default reading.
-- **Attributed terms:** "Isha Messiah" and "Mleccha" are cited to the Bhaviṣya Purāṇa, with a dating note: scholars place the Pratisarga Parva in the 18th-19th century. Who made the additions is Ashank's hypothesis. Dokter (2026) traces lineages in Pratisargaparvan 4.11-20 to Śaṅkara, Rāmānanda and Kṛṣṇa Caitanya, with an emphasis on Gauḍīya Vaiṣṇavism. *Varṇasaṅkara* is cited to Gītā 1.41-42. None of these terms is used in the mūla.
-- **Precedents for the ṛṣi-by-conduct theme (B-BRIDGE):** Satyakāma Jābāla in Chāndogya Upaniṣad 4.4, whose father was unknown and who was accepted by Gautama for his truthfulness. The Gospels' own data sits beside it: Jesus is a *tektōn* (artisan), and his foster-father is "of David's house" (Luke 1:27).
-
-### 1.1 The objective (RATIFIED by Ashank, 20 Oct 2026)
+### 1.1 The objective (RATIFIED, 20 Oct 2026)
 
 > **A Vedāntic rendering of the Bible**
 >
@@ -62,32 +29,59 @@ Ashank's own words, recorded verbatim. They override everything else in this fil
 >
 > **Discipline.** The text is faithful and the commentary is true to context. The charge that the Bible's polemic condemns Indic practice is answered in the commentary, never by altering the text. Every gap between biblical and Indic meaning is disclosed, and every bridge is labelled with whose it is. The work acknowledges that it was made with AI's study of each civilisation in its own context.
 
+Working terms that follow from it:
+- **Form.** The mūla follows the source. The bhāṣyas carry the interpretation.
+- **Method.** Tātparya-nirṇaya: the intent of a passage is read from the whole text. The work is written as dialogue, not conversion.
+- **Posture.** A lawyer's: the text is faithful and the commentary is true to context.
+- **Acknowledgement.** The colophon names AI's study of each civilisation's concepts in their own context as integral to the method. We call this the Tower of Babel framing.
 
-- **Name** (Claude's condition, accepted in the thread): *a Vedāntic rendering of the Bible*.
-- **Form:** a faithful mūla, plus labelled bhāṣyas (commentaries). The mūla follows the source. The bhāṣya carries interpretation.
-- **Method:** tātparya-nirṇaya, meaning that intent is read from the whole text. The work is written as dialogue, not conversion.
-- **Posture:** a lawyer's. The text is faithful and the commentary is true to context. The work answers the claim that the Bible's polemic against idolatry condemns Hindu practice, and it does so in the bhāṣya, never by altering the mūla.
-- **Acknowledgement:** AI's study of each civilisation's concepts in their own context is integral to the method, and the colophon says so (the "Tower of Babel" framing, Ashank's).
+### 1.2 Why this work exists
 
-### 1.2 Method additions (PENDING, proposed 20 Oct 2026)
+The Bible can be a valuable participant in humanity's moral dialogue without becoming its exclusive moral constitution.
+
+We read it through the Indian dialectic of pūrvapakṣa and uttarapakṣa. The pūrvapakṣa is not a view to be dismissed. It is the ground on which the meaning of the uttarapakṣa is sought, as the Uttara Kāṇḍa is read against the books of the Rāmāyaṇa that come before it. The Old Testament preserves the theological, legal and civilisational struggles of the Israelite covenant. The New Testament reinterprets that inheritance through the life, teachings, death and resurrection of Jesus.
+
+At the centre stands a man whose birth was surrounded by unusual circumstances and whose parentage was contested. He was born into a world where lineage, paternal legitimacy, priestly ancestry and communal belonging carried great weight, and he challenged the claim that inherited identity establishes moral superiority. He did not abolish the hierarchies of his age. He questioned their claim to decide spiritual worth, placed moral authority in humility, compassion, faithfulness and conduct, and redrew the bounds of spiritual kinship.
+
+Seen through an Indic lens, his standing was *saṅkara*: outside inherited rank, by some reckonings that of a śūdra. Yet by conduct he reached the standing of a ṛṣi, as Satyakāma Jābāla did in the Chāndogya Upaniṣad. That is the highest respect an Indic reader can give him.
+
+His execution showed the power of established institutions to destroy a person. The survival of the movement around him showed that physical defeat need not end moral influence. What emerged was not the end of inherited identities but a new and contested claim: that people divided by ancestry, status and nation could share one spiritual community. In the Bhaviṣya Purāṇa's later telling, this is how Īśa Masīha came to be named a teacher of the mlecchas in a world of mixed orders.
+
+An Indian rendering with an Indic lens is needed because Christianity itself later built institutions and boundaries that could reproduce the exclusion its teaching was able to challenge. To understand Jesus as Guru, the reading must stand apart from any church's vested agenda.
+
+His lasting relevance to a world fractured by identity politics is therefore not that his followers escaped identity. It is that his teaching gives a recurring test of whether any identity, religious, ethnic, familial or political, has become an excuse for abandoning moral responsibility.
+
+**Sources behind this reasoning** (each is cited again wherever the bhāṣya uses it):
+- **Bhaviṣya Purāṇa:** scholars date the Pratisarga Parva to the 18th-19th century. Our working hypothesis is that the text was amended continually and that the hands may include the Śaṅkara seats and the orders tied to them. Dokter (2026) traces lineages in Pratisargaparvan 4.11-20 to Śaṅkara, Rāmānanda and Kṛṣṇa Caitanya.
+- **Varṇasaṅkara:** Gītā 1.41-42.
+- **Satyakāma Jābāla:** Chāndogya Upaniṣad 4.4.
+- **Lineage and trade of Jesus:** Jesus is called a *tektōn*, an artisan, and Joseph is "of David's house" (Luke 1:27).
+- **Uttara Kāṇḍa:** scholars treat it as a later layer of the Rāmāyaṇa.
+- None of these terms is used in the mūla.
+
+### 1.3 How the purpose shapes the work (PENDING)
 
 These build on the objective. They do not replace it.
 
-1. **Jesus as the key, made concrete.** Where Jesus reads a Torah rule by its purpose, the bhāṣya on that rule follows his reading. Examples: Matt 5:17-20, Mark 2:27, Matt 23:23, Mark 10:2-12. The nearest Indic precedent to be cited is the Gītā's stance toward Vedic literalists (Gītā 2.42-46). That reference is **to be verified**.
+1. **Jesus as the key, made concrete.** Where Jesus reads a Torah rule by its purpose, the bhāṣya on that rule follows his reading. Examples: Matt 5:17-20, Mark 2:27, Matt 23:23, Mark 10:2-12. The nearest Indic precedent is the Gītā's stance toward Vedic literalists in Gītā 2.42-46, which is **to be verified**.
 2. **The Old Testament as itihāsa for his life.** Every Hebrew Bible passage carries cross-links to the Gospel moments where it is quoted, read or enacted. The cross-link index is built from data (§6.7) and is not written from memory.
-3. **His life as a dharma conflict.** The Prahlāda frame is Ashank's and is labelled as his. It runs as a bhāṣya theme, with matches and mismatches stated each time.
+3. **His life as a dharma conflict.** The Prahlāda frame runs as a bhāṣya theme, with matches and mismatches stated each time.
 4. **A lawyer's reading of legal passages.** For each legal passage the bhāṣya gives three things: the Torah rule, Jesus' reinterpretation, and a Dharmaśāstra or ṛta parallel.
 5. **Life details go under "gaps disclosed".** These cover the birth-date traditions (including Genna), Joseph and Mary, the hidden years, the claims of travel to the east, the Gnostic texts and how the canon was formed. They go into the introduction and the bhāṣya as context with sources, and are never filled in with invention.
+6. **The pūrvapakṣa at full strength (B-PURVA).** The Hebrew Bible keeps a bhāṣya in the Jewish reading's own voice. The New Testament's meaning is then read against that ground.
+7. **The identity test (B-ID).** Every passage on lineage, purity, priesthood, the covenant people or the nations notes what identity claims and where the text ties worth to conduct.
+8. **The Guru reading (B-GURU).** A bhāṣya reads Jesus from the texts alone. Church doctrine appears only in its own labelled "Christian tradition" voice, never as the default reading.
+9. **The triadic lens (B-TRI).** Father, Son/Logos and Spirit are read beside Vaiṣṇava and Śaiva triads (§6.4.1).
 
-### 1.3 Rejected (do not re-propose)
+### 1.4 Set aside (do not re-propose)
 
-| Proposal | Rejected because (Ashank) |
+| Proposal | Why it was set aside |
 |---|---|
-| A Gospels-centred scope | "Force fit"; it makes the translation incomplete |
+| A Gospels-centred scope | A force fit; it makes the translation incomplete |
 | Sanskrit words for biblical concepts in the mūla (a hybrid rule) | Source gender and sound must stay authentic; Sanskrit equivalents go in the bhāṣya |
 | The "Pentecost" correction to the objective | Not ratified |
-| Restating the purpose as "let the reader test Indic categories against Jesus" (20 Oct) | A force fit that rejected the earlier objective instead of building on it |
-| Treating any model's review as a decision | "Machines have their own limitation & bias" |
+| Recasting the purpose as "let the reader test Indic categories against Jesus" | A force fit that discarded the objective instead of building on it |
+| Treating any model's review as a decision | Machines have their own limits and biases |
 | Poetic excellence as the goal | The bar is accurate, rhythmic metre |
 
 ---
@@ -100,7 +94,7 @@ These build on the objective. They do not replace it.
 | R2 | Maker-reviewer across different model vendors | §5 S3, S5, S7 |
 | R3 | Divine names and core untranslatables kept as sound | §4.3 loanword register |
 | R4 | Idol and polemic verses stand as written in the mūla; bhāṣya per passage: target, internal reform, reception history, Vedāntic response (arcāvatāra) | §5 S8, bhāṣya template B-POL |
-| R5 | Ashank's role begins after the machine passes: taste and ratification | §5 S10 |
+| R5 | The project lead's role begins after the machine passes: taste and ratification | §5 S10 |
 | R6 | Structural boilerplate (uvāca, colophons, frames, phalaśruti) derived from Indic scripture | §7 |
 | R7 | Lawyer's posture: faithful text, context-true commentary | Whole pipeline |
 | R8 | Source gender kept in the mūla (rūaḥ feminine, logos masculine), with all agreeing words following; Sanskrit equivalents and gender analysis in the bhāṣya | §4.3, §5 S4 agreement check |
@@ -114,13 +108,13 @@ These build on the objective. They do not replace it.
 
 | What went wrong in the thread | Rule or check added |
 |---|---|
-| Claude made rūaḥ masculine, which Ashank caught | Gender comes from the source morphology field and never from the drafter (§5 S4 agreement check) |
+| The drafter made rūaḥ masculine; it was caught in review | Gender comes from the source morphology field and never from the drafter (§5 S4 agreement check) |
 | Wrong verb form *agṛhṇata* in John 1:5 (fixed to *jagrāha*) | A morphology check on every inflected form (§5 S4); grammar errors may be fixed by the maker directly |
 | *tad vinā* for masculine logos (fixed to *taṃ vinā*) | Pronoun agreement with kept nouns is checked automatically |
 | ChatGPT's suggested John 1:4-5 śloka failed the validator | Every reviewer suggestion runs through S4 before anyone reads it |
-| Claude acted on ChatGPT's review and settled theos vs ĕlohīm itself | The review-handling rule; interpretive changes go to PENDING (§2) |
-| Claude stated recalled facts as if verified | Every factual claim in a bhāṣya carries a source or the tag "could not verify" (§6.5) |
-| Claude rewrote the objective twice instead of building on it | Agents never edit §1.1; changes to §1.2 are proposals only |
+| The maker acted on one model's review and settled theos vs ĕlohīm without ratification | The review-handling rule; interpretive changes go to PENDING (§2) |
+| Recalled facts were stated as if verified | Every factual claim in a bhāṣya carries a source or the tag "could not verify" (§6.5) |
+| The objective was rewritten twice instead of built upon | Agents never edit §1.1; changes go to §1.3 as proposals only |
 | A date conversion in the astronomy check was wrong (calendar tuples, not Julian day) | Use Julian-day arithmetic for any ancient date; validate against a known modern date first |
 | An SBLGNT licence was "believed" before it was checked | Licences are fetched and recorded before any data is used (§4.1) |
 | The furtive pataḥ in rūaḥ was counted as a syllable on a guess | Any phonological counting rule for a kept word needs Hebrew-reviewer sign-off before it reaches the register |
@@ -177,7 +171,7 @@ Each entry has these fields:
   register_b: "Vedantic bridge, graded; for the bhāṣya only"
   avoid: [nirākāra]         # Sanskrit words that would import a Vedāntic sense into the mūla
   status: RATIFIED | PENDING | OPEN
-  owner: Ashank | Claude | reviewer:<vendor>
+  owner: project | analyst:<name> | school:<name> | reviewer:<vendor>
   evidence: "source or 'could not verify'"
 ```
 
@@ -210,8 +204,8 @@ The unit of work is one **pericope**: a sense unit of roughly 3-12 verses. Ślok
 | S7 Back-translation | A third model, which never saw the source, translates the mūla to English. A script compares it with source glosses | Third engine plus `tools/bt_diff.py` (**to build**) | A divergence list | Each divergence is either explained in the apparatus or fixed |
 | S8 Bhāṣya | Labelled commentaries are drafted from the templates in §6.4 | Maker, with research tools | `bhashya/<book>/<ch>.md` | Every factual claim has a source or "could not verify" |
 | S9 Human gates | Hebrew, Greek and Sanskrit-chandas/Vedānta experts review. The pilot is reviewed in full, then a 5% sample of each book (PENDING) | Paid experts | Signed reports | Required before publication |
-| S10 Ratification | PENDING items go into one daily digest for Ashank. GO or NO is recorded | Digest job on the Spine | `decisions/ratified.yaml` | Nothing interpretive is published without GO (R5) |
-| S11 Render | Devanagari, apparatus, audio references and colophon are rendered | `tools/render.py` (exists) | `out/` | Ashank approves production go-live |
+| S10 Ratification | PENDING items go into one daily digest for the project lead. GO or NO is recorded | Digest job on the Spine | `decisions/ratified.yaml` | Nothing interpretive is published without GO (R5) |
+| S11 Render | Devanagari, apparatus, audio references and colophon are rendered | `tools/render.py` (exists) | `out/` | The project lead approves production go-live |
 
 ### S4: automatic checks
 
@@ -262,46 +256,46 @@ Gen.1.1:
 
 Every bhāṣya block is labelled with three things:
 - **voice:** the reading it gives, either *Viśiṣṭādvaita* (placed first; order PENDING) or another named school, Jewish, Christian (with the canon or tradition named), Gnostic, and so on;
-- **owner:** Ashank, Claude, a named analyst, or a reviewer model;
+- **owner:** the project, a named analyst or school, or a reviewer model;
 - **sources** for each factual claim.
 
 | Template | When it is used | Required sections |
 |---|---|---|
 | B-POL | Idol or polemic verses (R4) | Target, internal reform, reception history, Vedāntic response (arcāvatāra) |
-| B-LAW | Legal passages (PENDING addition 4) | Torah rule; Jesus' reading where one exists; Dharmaśāstra or ṛta parallel |
-| B-GEN | Gendered spiritual terms (R8) | Source gender, Sanskrit equivalents, gender as worldview (the Deva-Asura theme, Ashank's) |
-| B-XREF | Hebrew Bible passages used in the Gospels (PENDING addition 2) | A link to each Gospel moment, from the index in §6.7 |
-| B-GAP | Places where the text is silent or disputed (PENDING addition 5) | What the text does not say, what traditions add, sources |
-| B-PURVA | Hebrew Bible passages (§1.0, PENDING) | The Jewish reading in its own voice and at full strength, then the New Testament's reinterpretation |
-| B-ID | Passages on lineage, purity, priesthood, covenant or the nations (§1.0, PENDING) | What identity claims; where the text ties worth to conduct; later institutional use |
-| B-GURU | Gospel passages (§1.0, PENDING) | Jesus as Guru read from the texts alone (Ashank's voice); church doctrine kept only in its own labelled voice |
-| B-TRI | Passages on Father, Son/Logos and Spirit (Ashank asked for this lens, 20 Oct 2026) | Vaiṣṇava and Śaiva readings side by side (table §6.4.1), each graded partial or none, with the source gender of each term (R8) |
+| B-LAW | Legal passages (§1.3) | Torah rule; Jesus' reading where one exists; Dharmaśāstra or ṛta parallel |
+| B-GEN | Gendered spiritual terms (R8) | Source gender, Sanskrit equivalents, gender as worldview (the Deva-Asura theme) |
+| B-XREF | Hebrew Bible passages used in the Gospels (§1.3) | A link to each Gospel moment, from the index in §6.7 |
+| B-GAP | Places where the text is silent or disputed (§1.3) | What the text does not say, what traditions add, sources |
+| B-PURVA | Hebrew Bible passages (§1.3, PENDING) | The Jewish reading in its own voice and at full strength, then the New Testament's reinterpretation |
+| B-ID | Passages on lineage, purity, priesthood, covenant or the nations (§1.3, PENDING) | What identity claims; where the text ties worth to conduct; later institutional use |
+| B-GURU | Gospel passages (§1.3, PENDING) | Jesus as Guru read from the texts alone; church doctrine kept only in its own labelled voice |
+| B-TRI | Passages on Father, Son/Logos and Spirit (§1.3, PENDING) | Vaiṣṇava and Śaiva readings side by side (table §6.4.1), each graded partial or none, with the source gender of each term (R8) |
 
 #### 6.4.1 The triadic lens for B-TRI
 
-The table is from another analyst's text, which Ashank supplied for the bhāṣya. The last row was cut off in his message. Status: the lens is requested; the mappings are PENDING.
+The table draws on another analyst's text. Its last row is incomplete. The mappings are PENDING.
 
 | Theological function | Biblical term (source gender) | Vaiṣṇava reading | Śaiva reading |
 |---|---|---|---|
 | Ultimate divine source | Father; ĕlohīm / thĕŏs (m) | Nārāyaṇa / Vāsudeva | Paramaśiva |
 | Divine manifestation and spiritual activity | Spirit; rūaḥ (f, Hebrew), pneuma (n, Greek) | Yoga-Māyā / Śakti | Parāśakti / Pārvatī |
-| Divine self-expression and revelation | Son / Logos; lŏgŏs (m) | Pradyumna, in a vyūha reading (one of the four forms of Vāsudeva in Pāñcarātra) | "a possible analogy with Śiva's manifesting consciousness, rather than automati…" (cut off in the message) |
+| Divine self-expression and revelation | Son / Logos; lŏgŏs (m) | Pradyumna, in a vyūha reading (one of the four forms of Vāsudeva in Pāñcarātra) | "a possible analogy with Śiva's manifesting consciousness, rather than automati…" (incomplete) |
 
-Notes for whoever drafts B-TRI (Claude's, PENDING):
+Notes for whoever drafts B-TRI (PENDING):
 - **Gender fit.** Rūaḥ is feminine, as Śakti and Yoga-Māyā are. Greek *pneuma* is neuter. The bhāṣya states both rather than choosing one.
-- **Ashank's earlier triad.** Saṅkarṣaṇa, Yoga-Māyā and Jagannātha is a second Vaiṣṇava mapping. B-TRI sets it beside the vyūha reading.
+- **A second Vaiṣṇava triad.** Saṅkarṣaṇa, Yoga-Māyā and Jagannātha is a second Vaiṣṇava mapping. B-TRI sets it beside the vyūha reading.
 - **Grading.** Each correspondence is graded *partial* by default. Where the Christian doctrine (one God in three persons, the Son begotten, not made) differs from the vyūha model (emanation of forms), the difference is stated.
 - **Pāñcarātra details.** The four vyūhas are Vāsudeva, Saṅkarṣaṇa, Pradyumna and Aniruddha. This is from memory and is to be verified before drafting.
 | B-BRIDGE | Indic analogies (Prahlāda, nara-bali, avatāra and others) | Whose bridge it is, where it matches, where it does not |
 
 ### 6.5 Evidence notes in the bhāṣya
 
-Each factual claim cites a source or says "could not verify". Claims recalled from memory are marked so. This is the standing practice in the thread under Ashank's preferences, not a new rule.
+Each factual claim cites a source or says "could not verify". Claims recalled from memory are marked so. This is standing practice, not a new rule.
 
 ### 6.6 Decisions
 
 - `decisions/pending.yaml`: the id, the proposal, its owner, the findings that triggered it, and the alternatives that were rejected.
-- `decisions/ratified.yaml`: the id, the decision, the date, and "Ashank".
+- `decisions/ratified.yaml`: the id, the decision, the date, and who ratified it.
 
 ### 6.7 Cross-reference index (`xref/ot_in_gospels.tsv`)
 
@@ -318,20 +312,20 @@ The frames are taken from Indic scripture. The exact formulas are to be drafted 
 
 - **Speaker frames:** an *uvāca* line wherever the source introduces speech, for example "ĕlohīm uvāca". The source's own speech verb stays in the mūla, and uvāca frames are typographically marked as structure.
 - **Chapter colophon:** iti … (book, chapter) …, modelled on the Gītā's colophon form. The colophon names the source text, the maker, the reviewers and the acknowledgement of AI's role.
-- **Opening invocation:** drawn from the Bible's own words (PENDING, Claude's).
+- **Opening invocation:** drawn from the Bible's own words (PENDING).
 - **Phalaśruti** (a closing passage on the merit of reading): **OPEN D-09**: whether one is used at all, since the Bible has no such passage of its own.
 
 ---
 
-## 8. Engineering (Ashank's operating model M1-M10)
+## 8. Engineering (the project's operating model, M1-M10)
 
 - **Engines are swappable** behind a router: Claude, Gemini, OpenAI, Grok and local Ollama. The maker, reviewer and back-translator for one pericope must come from three different vendors (R2).
 - **State:** the Spine's Postgres is the source of truth for work in flight. The repo holds the text. The per-pericope stage status, the engines used and their costs live in state.
 - **Audit:** an append-only log of every agent action. A budget cap applies per engine.
-- **Change flow:** branch, then tests (S4 and CI), then review by a separate agent that did not write the change, then a plain-language summary with a rollback path, then Ashank approves the merge.
+- **Change flow:** branch, then tests (S4 and CI), then review by a separate agent that did not write the change, then a plain-language summary with a rollback path, then the project lead approves the merge.
 - **Secrets** stay in the local vault and never in the repo, chat or state.
-- **The approval loop** sends one daily digest of PENDING items to Ashank. He marks GO, and the system records it.
-- **Legal gate before publication:** a review by an Indian criminal-law expert on Section 299 BNS (formerly IPC 295A), focused on the B-POL bhāṣyas. Claude prepares the brief and the expert signs off.
+- **The approval loop** sends one daily digest of PENDING items to the project lead, who marks GO; the system records it.
+- **Legal gate before publication:** a review by an Indian criminal-law expert on Section 299 BNS (formerly IPC 295A), focused on the B-POL bhāṣyas. The project prepares the brief and the expert signs off.
 
 ---
 
@@ -339,7 +333,7 @@ The frames are taken from Indic scripture. The exact formulas are to be drafted 
 
 1. **Pilot closure:** Genesis 1:1-5 and John 1:1-5. Steps: S5 with a non-Anthropic reviewer, S7 back-translation, S9 expert review, and S10 ratification of the PENDING items (theos in John, uninflected logos, ādau in both openings). The furtive-pataḥ count must also be signed off.
 2. **Tooling:** build S0, S1, S2, S4 and S7 plus CI. The Tier 1 register is completed for the whole Bible (all divine names and titles) before scale-up.
-3. **Liturgical core** (Claude's recommendation, PENDING): the Shema, the priestly blessing, the Psalms, the Lord's Prayer, the Magnificat, Benedictus and Nunc Dimittis, and the Jesus Prayer. Phonetic authenticity matters most here (R9).
+3. **Liturgical core** (PENDING): the Shema, the priestly blessing, the Psalms, the Lord's Prayer, the Magnificat, Benedictus and Nunc Dimittis, and the Jesus Prayer. Phonetic authenticity matters most here (R9).
 4. **Book by book**, by dependency: Genesis, then the Gospels, with B-XREF links back to Genesis as the index grows, then the remaining books.
 
 **Size:** about 32,000 ślokas (range 27,000-48,000; Gītā-calibrated model, pilot ratio r ≈ 1.0). The estimate is revised after step 3.
@@ -354,7 +348,7 @@ The frames are taken from Indic scripture. The exact formulas are to be drafted 
 - [ ] Back-translation divergences are explained or fixed.
 - [ ] The bhāṣya is present for every B-template trigger, with voice, owner and sources.
 - [ ] The human sample review is done (5% per book, PENDING).
-- [ ] Ashank's GO is recorded for the chapter's PENDING items.
+- [ ] The project lead's GO is recorded for the chapter's PENDING items.
 - [ ] The Devanagari render and audio references are complete for every kept word.
 
 ---
@@ -373,7 +367,7 @@ The frames are taken from Indic scripture. The exact formulas are to be drafted 
 | D-08 | Licensed Septuagint for cross-references | §6.7 |
 | D-09 | Phalaśruti: use or not | Colophons |
 | D-10 | Licence for this rendering (compatible with CC BY 4.0 and the CC BY-SA parse data) | Publication |
-| D-11 | Ratify the five additions in §1.2 | Templates B-LAW, B-XREF, B-GAP |
+| D-11 | Ratify the method items in §1.3 | Templates B-LAW, B-XREF, B-GAP |
 | D-12 | Ratify the review-handling rule | Formal status of S6 |
 
 ---
@@ -386,6 +380,6 @@ The frames are taken from Indic scripture. The exact formulas are to be drafted 
 | Model reviewers share blind spots | Three vendors per pericope plus human gates |
 | Invented Sanskrit forms | Morphology check and the Sanskrit expert |
 | Fillers padding the meaning | Allow-list, logging, back-translation diff |
-| Too many loanwords hurting readability | Loanwords limited to names and core untranslatables (Claude's position, PENDING) |
+| Too many loanwords hurting readability | Loanwords limited to names and core untranslatables (PENDING) |
 | Licence share-alike on parse data | Keep parse data separate; choose the rendering's licence knowingly (D-10) |
 | Agents drifting from the objective | §1.1 is read-only to agents; §1.3 records the rejected proposals |
