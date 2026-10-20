@@ -10,6 +10,7 @@ Ratified rules (Ashank):
 5. Ashank's role starts after machine passes: taste and ratification.
 6. Structural boilerplate (uvāca, colophons, frames, phalaśruti) derived from Indic scripture.
 7. Lawyer's posture: faithful text, context-true commentary.
+8. Grammatical gender of every loanword follows its source language (e.g. rūakh feminine, logos masculine), and all agreeing words follow it.
 
 Claude's positions (not ratified):
 - YHWH written in a fixed marked form, read as Adonai.
@@ -18,4 +19,4 @@ Claude's positions (not ratified):
 - Opening invocation drawn from the Bible's own words.
 - Independent human gates: Hebrew, Greek, Sanskrit chandas/Vedānta reviewers. Full review of pilot, then 5% sample per book.
 
-Open decisions: see register/terms.yaml entries marked DECISION; gender of loan rūakh; licence for this rendering.
+Open decisions: see register/terms.yaml entries marked DECISION; licence for this rendering.

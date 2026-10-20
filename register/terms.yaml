@@ -25,12 +25,13 @@
   source: רוּחַ (ruach)
   render: rūakh (रूअख़्)
   grade: kept-as-sound
-  note: Wind, breath and spirit at once. Kept to preserve the ambiguity. Hebrew noun is feminine; draft participle plavan is masculine. Decide gender of loan.
+  gender: feminine (follows Hebrew; ratified rule: loanwords keep source gender)
+  note: Wind, breath and spirit at once. Kept to preserve the ambiguity.
 - id: H7363
   source: מְרַחֶפֶת (merachefet)
-  render: plavan
+  render: plavamānā (feminine, agreeing with rūakh)
   grade: partial
-  note: Hover, flutter (used of an eagle in Deut 32:11). plavan = floating.
+  note: Hover, flutter (used of an eagle in Deut 32:11). Hebrew participle is feminine.
 - id: H216
   source: אוֹר (or)
   render: jyotis
