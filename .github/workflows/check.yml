@@ -1,0 +1,15 @@
+name: metre-check
+on: [push, pull_request]
+jobs:
+  metre:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: |
+          set -e
+          for f in mula/*/*.txt; do
+            case "$f" in *.deva.txt) continue;; esac
+            echo "== $f"; python tools/anushtubh.py "$f"
+          done
