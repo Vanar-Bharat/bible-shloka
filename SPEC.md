@@ -19,11 +19,11 @@ Review handling (Claude's process, for ratification):
 - Model reviewers share blind spots; human expert gates remain.
 
 Claude's positions (not ratified):
-- YHWH written in a fixed marked form, read as Adonai.
-- Hebrew sounds: Devanagari with nukta; vowels follow Tiberian pointing.
 - Loanwords limited to names and core untranslatables, each with one glossary entry.
 - Opening invocation drawn from the Bible's own words.
 - Independent human gates: Hebrew, Greek, Sanskrit chandas/Vedānta reviewers. Full review of pilot, then 5% sample per book.
+
+9. Pronunciation of kept words (20 Oct 2026): Hebrew per the Tiberian pointing of the source text; Greek per 1st-century Koine. Nukta scheme (ח ह़, כ ख़, ע to be fixed), short ĕ/ŏ (ऎ/ऒ) where the source vowel is short, stress marked with U+0951 on the stressed syllable. The Name is written in fixed form and read Adonai. Each kept word gets a licensed native/liturgical audio reference.
 
 Bhāṣya themes (Ashank): gender of spiritual vocabulary as a worldview; its resonance with the Deva-Asura conflict over spiritual concepts.
 

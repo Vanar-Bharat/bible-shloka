@@ -1,17 +1,17 @@
-# Genesis 1:1-5 | draft 2 | maker: Claude (Anthropic) | reviewer 1: ChatGPT (OpenAI), 20 Oct 2026
+# Genesis 1:1-5 | draft 3 (pronunciation standard ratified 20 Oct 2026) | maker: Claude (Anthropic) | reviewer 1: ChatGPT (OpenAI), 20 Oct 2026
 # Gen 1:1
 ādāv eva sasarjāsāv
-elohīm dyāṃ bhuvaṃ tathā
+ĕlohīm dyāṃ bhuvaṃ tathā
 # Gen 1:2
 bhūḥ śūnyā rūpahīnāsīt
 timiraṃ cārṇavopari
-āsīc ca rūakh elohīm
+atha rūaħ ĕlohīm tu
 plavamānā jalopari
 # Gen 1:3
-elohīm abravīj jyotir
+ĕlohīm abravīj jyotir
 bhavatv iti tato'bhavat
 # Gen 1:4
-elohīm jyotir aikṣiṣṭa
+ĕlohīm jyotir aikṣiṣṭa
 śubham ity eva tad dhi saḥ
 jyotiṣas tamaso madhye
 vibhedaṃ kṛtavāṃs tataḥ

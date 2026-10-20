@@ -12,11 +12,11 @@ lines starting with # are comments)
 """
 import re, sys
 LONG = {'ā','ī','ū','ṝ','e','o','ai','au'}
-SHORT = {'a','i','u','ṛ','ḷ'}
+SHORT = {'a','i','u','ṛ','ḷ','ĕ','ŏ'}  # ĕ ŏ: short e/o in Hebrew/Greek loanwords
 ASP = ['kh','gh','ch','jh','ṭh','ḍh','th','dh','ph','bh']
-CONS = set('kgṅcjñṭḍṇtdnpbmyrlvśṣsh') | {'ḵ'}
+CONS = set('kgṅcjñṭḍṇtdnpbmyrlvśṣsh') | {'ħ','ʕ','ʔ'}  # ħ Hebrew het, ʕ ayin, ʔ aleph
 def tokens(p):
-    p = p.lower().replace("'", '').replace('-', '').replace(' ', '')
+    p = p.lower().replace("'", '').replace('-', '').replace(' ', '').replace('\u0301','')  # acute = stress, no weight
     out, i = [], 0
     while i < len(p):
         two = p[i:i+2]

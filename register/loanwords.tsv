@@ -1,5 +1,5 @@
-# iast	devanagari	source	rule
-elohīm	एलोहीम्	Hebrew אֱלֹהִים	divine name/title kept as sound (ratified: untranslatable divine names)
-rūakh	रूअख़्	Hebrew רוּחַ	kept as sound: polysemous (wind/breath/spirit); ḥet written ख़
-logos	लोगोस्	Greek λόγος	kept as sound, uninflected (replaces logaḥ); masculine
-theos	थेओस्	Greek θεός	kept as sound in John (original-language rule); masculine
+# iast	devanagari	source	stress	standard	rule
+ĕlohīm	ऎलोही॑म्	Hebrew אֱלֹהִים	final (-hîm)	Tiberian: ʾĕlōhîm, ĕ = hateph segol (short)	divine title kept as sound; masculine
+rūaħ	रू॑अह़्	Hebrew רוּחַ	first (rú-)	Tiberian: rûaḥ, ħ = het (pharyngeal), written ह़; furtive patah counted as a syllable (Hebrew reviewer to confirm)	kept as sound; feminine
+lŏgŏs	लॊ॑गॊस्	Greek λόγος	first (ló-)	1st-c. Koine, both o short (omicron)	kept as sound, uninflected; masculine
+thĕŏs	थॆऒ॑स्	Greek θεός	final (-ós)	1st-c. Koine, θ = aspirated tʰ, e and o short	kept as sound in John; masculine

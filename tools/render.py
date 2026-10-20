@@ -1,17 +1,15 @@
 #!/usr/bin/env python3
 """Render an IAST mula file to Devanagari shlokas (two padas per line, danda marks).
-Loanword spellings from register/loanwords.tsv override the automatic output."""
+Loanwords (register/loanwords.tsv) use fixed spellings with nukta and stress sign (U+0951)."""
 import sys, re, csv
 from indic_transliteration import sanscript
 from indic_transliteration.sanscript import transliterate
 LOAN = {}
 for row in csv.reader(open('register/loanwords.tsv', encoding='utf8'), delimiter='\t'):
     if row and not row[0].startswith('#'): LOAN[row[0]] = row[1]
-def deva(p):
-    s = transliterate(p, sanscript.IAST, sanscript.DEVANAGARI)
-    for iast, dv in LOAN.items():
-        s = s.replace(transliterate(iast, sanscript.IAST, sanscript.DEVANAGARI), dv)
-    return s
+def word(w):
+    return '-'.join(LOAN.get(part) or transliterate(part, sanscript.IAST, sanscript.DEVANAGARI) for part in w.split('-'))
+def deva(p): return ' '.join(word(w) for w in p.split())
 out, buf, n, ref = [], [], 0, ''
 for line in open(sys.argv[1], encoding='utf8'):
     line = line.strip()

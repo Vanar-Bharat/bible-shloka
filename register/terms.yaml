@@ -2,7 +2,7 @@
 # status: draft until ratified by Ashank; reviewer column filled by a non-Anthropic model.
 - id: H430
   source: אֱלֹהִים (elohim)
-  render: elohīm (एलोहीम्)
+  render: ĕlohīm (ऎलोही॑म्)
   grade: kept-as-sound
   note: Divine title kept as sound per ratified rule. Plural form, singular verb in Gen 1:1.
   bhashya: Compare Īśvara (partial). Do not substitute.
@@ -23,7 +23,7 @@
   note: "Face of the deep" compressed to arṇave (on the deep). Restore pnei if reviewer rejects.
 - id: H7307
   source: רוּחַ (ruach)
-  render: rūakh (रूअख़्)
+  render: rūaħ (रू॑अह़्)
   grade: kept-as-sound
   gender: feminine (follows Hebrew; ratified rule: loanwords keep source gender)
   note: Wind, breath and spirit at once. Kept to preserve the ambiguity.
@@ -48,24 +48,24 @@
   note: Cardinal "one", not ordinal "first". Kept cardinal.
 - id: G3056
   source: λόγος (logos)
-  render: logos (लोगोस्), uninflected, masculine
+  render: lŏgŏs (लॊ॑गॊस्), uninflected, masculine
   grade: kept-as-sound
   status: PENDING RATIFICATION (Claude's proposal; draft 1 inflected logaḥ)
   bhashya: Vāk, Śabda-brahman (partial). Hebrew background davar.
 - id: G2316
   source: θεός (theos)
-  render: theos (थेओस्)
+  render: thĕŏs (थॆऒ॑स्)
   grade: kept-as-sound
   status: PENDING RATIFICATION. Claude's proposal (draft 2); draft 1 used elohīm. Prompted by review 1, which is a finding, not a decision.
   note: Each book keeps its own source word. The Gen 1:1 / John 1:1 link goes in the bhāṣya.
 - id: G2316-predicate
   source: θεὸς ἦν ὁ λόγος (John 1:1c)
-  render: theos āsīt sa logos ca
+  render: thĕŏs sa lŏgŏs āsīd vai
   grade: equivalent
   note: Greek word order kept (theos first, anarthrous). svayam removed after review 1.
 - id: G4314
   source: πρὸς τὸν θεόν (pros ton theon)
-  render: theos-pārśve
+  render: thĕŏs-pārśve
   grade: partial
   note: "Towards/with God", relational. pārśva = side, nearness.
 - id: G2222
