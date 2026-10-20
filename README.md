@@ -13,7 +13,7 @@ Sanskrit anuṣṭubh rendering of the Bible from the Hebrew/Aramaic and Greek o
 - `python tools/anushtubh.py FILE`: 8 syllables per pāda; syllables 5-6-7 = L G G (odd) / L G L (even); 2-3 not both light. Runs on every push (`.github/workflows/check.yml`).
 
 ## Pilot result
-- 10 verses → 7 ślokas (28 pādas), 0 metre errors.
+- 10 verses → 7 ślokas (28 pādas), 0 metre errors. Draft 2 after review 1 (ChatGPT).
 - Size model predicted 7.05 ślokas for these verses (r ≈ 1.0). Full-Bible estimate stays ≈ 32,000 ślokas; sample is too small to narrow the range.
 
 ## Not yet done
