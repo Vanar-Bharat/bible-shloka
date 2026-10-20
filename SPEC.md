@@ -1,6 +1,10 @@
-# Project spec (draft v4, positions labelled)
+# Project spec (v5, positions labelled)
 
-Objective (Ashank's, ratification pending on v4 wording): render the complete Bible (66 books) from Hebrew/Aramaic and Greek into Sanskrit śloka. Vedānta is the medium of meaning; Jesus' life and message are the interpretive key; every gap between biblical and Indic meaning is disclosed. Name: "a Vedāntic rendering of the Bible" (Claude's condition).
+Objective (RATIFIED by Ashank, 20 Oct 2026; synthesis of v4 and his purpose statement; full text in PIPELINE.md §1.1):
+
+**A Vedāntic rendering of the Bible.** Purpose: to bring the Bible into humanity's moral dialogue as a participant, not as humanity's exclusive moral constitution. What: the complete Bible (66 books), rendered from the Hebrew, Aramaic and Greek originals into Sanskrit anuṣṭubh, with a faithful mūla and labelled bhāṣyas. How: Vedānta is the medium of meaning; read through pūrvapakṣa and uttarapakṣa, the Old Testament is the ground understood on its own terms, and the New Testament its reinterpretation through the life, teachings, death and resurrection of Jesus. Key: Jesus, read as Guru from the texts and apart from any church's vested agenda; born outside inherited status, a ṛṣi by conduct; his teaching tests whether any identity has become an excuse for abandoning moral responsibility. Discipline: faithful text, context-true commentary; the polemic charge answered in commentary, never by altering the text; every gap disclosed; every bridge labelled by owner; AI's study of each civilisation acknowledged.
+
+(v4, superseded: complete Bible in śloka; Vedānta the medium; Jesus the key; gaps disclosed.)
 
 Ratified rules (Ashank):
 1. Accurate, rhythmic anuṣṭubh. Poetic excellence is not the objective. Metre checked against corpora (Ramayana, Gita, Durga Saptashati).

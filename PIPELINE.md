@@ -262,6 +262,23 @@ Every bhāṣya block is labelled with three things:
 | B-PURVA | Hebrew Bible passages (§1.0, PENDING) | The Jewish reading in its own voice and at full strength, then the New Testament's reinterpretation |
 | B-ID | Passages on lineage, purity, priesthood, covenant or the nations (§1.0, PENDING) | What identity claims; where the text ties worth to conduct; later institutional use |
 | B-GURU | Gospel passages (§1.0, PENDING) | Jesus as Guru read from the texts alone (Ashank's voice); church doctrine kept only in its own labelled voice |
+| B-TRI | Passages on Father, Son/Logos and Spirit (Ashank asked for this lens, 20 Oct 2026) | Vaiṣṇava and Śaiva readings side by side (table §6.4.1), each graded partial or none, with the source gender of each term (R8) |
+
+#### 6.4.1 The triadic lens for B-TRI
+
+The table is from another analyst's text, which Ashank supplied for the bhāṣya. The last row was cut off in his message. Status: the lens is requested; the mappings are PENDING.
+
+| Theological function | Biblical term (source gender) | Vaiṣṇava reading | Śaiva reading |
+|---|---|---|---|
+| Ultimate divine source | Father; ĕlohīm / thĕŏs (m) | Nārāyaṇa / Vāsudeva | Paramaśiva |
+| Divine manifestation and spiritual activity | Spirit; rūaḥ (f, Hebrew), pneuma (n, Greek) | Yoga-Māyā / Śakti | Parāśakti / Pārvatī |
+| Divine self-expression and revelation | Son / Logos; lŏgŏs (m) | Pradyumna, in a vyūha reading (one of the four forms of Vāsudeva in Pāñcarātra) | "a possible analogy with Śiva's manifesting consciousness, rather than automati…" (cut off in the message) |
+
+Notes for whoever drafts B-TRI (Claude's, PENDING):
+- **Gender fit.** Rūaḥ is feminine, as Śakti and Yoga-Māyā are. Greek *pneuma* is neuter. The bhāṣya states both rather than choosing one.
+- **Ashank's earlier triad.** Saṅkarṣaṇa, Yoga-Māyā and Jagannātha is a second Vaiṣṇava mapping. B-TRI sets it beside the vyūha reading.
+- **Grading.** Each correspondence is graded *partial* by default. Where the Christian doctrine (one God in three persons, the Son begotten, not made) differs from the vyūha model (emanation of forms), the difference is stated.
+- **Pāñcarātra details.** The four vyūhas are Vāsudeva, Saṅkarṣaṇa, Pradyumna and Aniruddha. This is from memory and is to be verified before drafting.
 | B-BRIDGE | Indic analogies (Prahlāda, nara-bali, avatāra and others) | Whose bridge it is, where it matches, where it does not |
 
 ### 6.5 Evidence notes in the bhāṣya
