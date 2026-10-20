@@ -17,7 +17,28 @@ Ashank's own documents override everything in this file.
 
 ## 1. Objective
 
-### 1.1 The objective (RATIFIED wording, v4)
+### 1.0 Purpose: why the work exists (Ashank's statement, 20 Oct 2026)
+
+Ashank's own words, recorded verbatim. They override everything else in this file. §1.1 is *what* is made; this section is *why*.
+
+> The Bible can be a valuable participant in humanity's moral dialogue without becoming humanity's exclusive moral constitution.
+>
+> Read through the Indian dialectical framework of Pūrvapakṣa and Uttarapakṣa, the Old Testament preserves the theological, legal and civilizational struggles of the Israelite covenant, while the New Testament reinterprets that inheritance through the life, teachings, death and resurrection of Jesus Christ.
+>
+> At the centre of the Christian narrative stands a man whose birth was surrounded by unusual circumstances and whose parentage became a subject of controversy. Born into a world in which lineage, paternal legitimacy, priestly ancestry and communal belonging carried immense social significance, Jesus challenged the proposition that inherited identity could establish moral superiority.
+>
+> He did not systematically abolish the social hierarchies of his age. Instead, he questioned their claim to determine spiritual worth. He located moral authority in humility, compassion, faithfulness and conduct, while redefining the boundaries of spiritual kinship.
+>
+> His execution demonstrated the power of established institutions to destroy an individual. Yet the survival and expansion of the movement formed around him demonstrated that physical defeat need not extinguish moral influence.
+>
+> What emerged was not the disappearance of inherited identities, but a new and contested claim: that people divided by ancestry, social status and national belonging could participate in a shared spiritual community. This was the reason how Isha Messiah emerged as spiritual leader of Mleccha in a Varnasankari world. An Indian translation with Indic lens is needed since Christianity itself subsequently developed institutions and boundaries that could reproduce the very forms of exclusion its moral teachings were capable of challenging.
+>
+> Consequently, the enduring relevance of Jesus to a world fractured by identity politics is not that his followers escaped identity altogether. It is that his teachings provide a recurring basis for judging whether any identity—religious, ethnic, familial or political—has become an excuse for abandoning moral responsibility.
+
+**How the purpose shapes the pipeline (Claude's proposals, PENDING):**
+- **The pūrvapakṣa is stated at full strength.** In Indian dialectic the opponent's view must be given completely and fairly before it is answered. So the Hebrew Bible keeps a full Jewish-reading bhāṣya in its own voice (template B-PURVA), not only a Christian reading of it.
+- **The identity test.** Every passage on lineage, purity, priesthood, the covenant people or the nations gets a B-ID note: what identity claims, and where the text ties worth to conduct.
+- **"Isha Messiah", "Mleccha" and "Varnasankari" are attributed terms.** "Isha Messiah" and "Mleccha" come from the Bhavishya Purana passage, which scholars date to the 18th or 19th century. *Varṇasaṅkara* is Arjuna's term in Gītā 1.41-42. In the bhāṣya each term is cited to its source and labelled as Ashank's framing. None is used in the mūla.
 
 > Render the complete Bible (66 books) from the Hebrew/Aramaic and Greek originals into Sanskrit śloka. Vedānta is the medium of meaning, Jesus' life and message are the interpretive key, and every gap between biblical and Indic meaning is disclosed.
 
@@ -230,6 +251,8 @@ Every bhāṣya block is labelled with three things:
 | B-GEN | Gendered spiritual terms (R8) | Source gender, Sanskrit equivalents, gender as worldview (the Deva-Asura theme, Ashank's) |
 | B-XREF | Hebrew Bible passages used in the Gospels (PENDING addition 2) | A link to each Gospel moment, from the index in §6.7 |
 | B-GAP | Places where the text is silent or disputed (PENDING addition 5) | What the text does not say, what traditions add, sources |
+| B-PURVA | Hebrew Bible passages (§1.0, PENDING) | The Jewish reading in its own voice and at full strength, then the New Testament's reinterpretation |
+| B-ID | Passages on lineage, purity, priesthood, covenant or the nations (§1.0, PENDING) | What identity claims; where the text ties worth to conduct; later institutional use |
 | B-BRIDGE | Indic analogies (Prahlāda, nara-bali, avatāra and others) | Whose bridge it is, where it matches, where it does not |
 
 ### 6.5 Evidence notes in the bhāṣya
