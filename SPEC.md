@@ -12,6 +12,12 @@ Ratified rules (Ashank):
 7. Lawyer's posture: faithful text, context-true commentary.
 8. Grammatical gender of every loanword follows its source language (e.g. rūakh feminine, logos masculine), and all agreeing words follow it.
 
+Review handling (Claude's process, for ratification):
+- Reviewer output, from any model, is a finding. It is never a decision and never Ashank's position.
+- Maker fixes verifiable errors directly: grammar, metre, agreement.
+- Any interpretive or terminological change is logged as a proposal with status PENDING RATIFICATION.
+- Model reviewers share blind spots; human expert gates remain.
+
 Claude's positions (not ratified):
 - YHWH written in a fixed marked form, read as Adonai.
 - Hebrew sounds: Devanagari with nukta; vowels follow Tiberian pointing.

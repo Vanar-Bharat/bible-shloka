@@ -50,12 +50,14 @@
   source: λόγος (logos)
   render: logos (लोगोस्), uninflected, masculine
   grade: kept-as-sound
+  status: PENDING RATIFICATION (Claude's proposal; draft 1 inflected logaḥ)
   bhashya: Vāk, Śabda-brahman (partial). Hebrew background davar.
 - id: G2316
   source: θεός (theos)
   render: theos (थेओस्)
   grade: kept-as-sound
-  note: Changed from elohīm after review 1. Each book keeps its own source word (ratified rule 3-4). The Gen 1:1 / John 1:1 link goes in the bhāṣya.
+  status: PENDING RATIFICATION. Claude's proposal (draft 2); draft 1 used elohīm. Prompted by review 1, which is a finding, not a decision.
+  note: Each book keeps its own source word. The Gen 1:1 / John 1:1 link goes in the bhāṣya.
 - id: G2316-predicate
   source: θεὸς ἦν ὁ λόγος (John 1:1c)
   render: theos āsīt sa logos ca
@@ -85,7 +87,8 @@
   source: בְּרֵאשִׁית / ἐν ἀρχῇ
   render: ādau (both)
   grade: equivalent
-  note: Same Sanskrit word in both openings so the echo is audible (review 1).
+  status: PENDING RATIFICATION (Claude's proposal)
+  note: Same Sanskrit word in both openings so the echo is audible.
 - id: metre-fillers
   source: none
   render: tu, eva, ca, vai, hi, tathā where marked
