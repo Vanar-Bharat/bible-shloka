@@ -1,5 +1,24 @@
-# iast	devanagari	source	stress	standard	rule
+# iast	devanagari	source	stress	standard	rule	metre
 ĕlohīm	ऎलोही॑म्	Hebrew אֱלֹהִים	final (-hîm)	Tiberian: ʾĕlōhîm, ĕ = hateph segol (short)	divine title kept as sound; masculine
 rūaħ	रू॑अह़्	Hebrew רוּחַ	first (rú-)	Tiberian: rûaḥ, ħ = het (pharyngeal), written ह़; furtive patah counted as a syllable (Hebrew reviewer to confirm)	kept as sound; feminine
 lŏgŏs	लॊ॑गॊस्	Greek λόγος	first (ló-)	1st-c. Koine, both o short (omicron)	kept as sound, uninflected; masculine
 thĕŏs	थॆऒ॑स्	Greek θεός	final (-ós)	1st-c. Koine, θ = aspirated tʰ, e and o short	kept as sound in John; masculine
+paulŏs	पौ॑लॊस्	Greek Παῦλος	syllable 1	1st-c. Koine, source case form as written (D-14 PENDING)	kept as sound; m	
+timŏthĕŏs	तिमॊ॑थॆऒस्	Greek Τιμόθεος	syllable 2	1st-c. Koine, source case form as written (D-14 PENDING)	kept as sound; m	
+philēmŏni	फिले॑मॊनि	Greek Φιλήμονι	syllable 2	1st-c. Koine, source case form as written (D-14 PENDING)	kept as sound; m, dative	
+apphiā	अप्फि॑आ	Greek Ἀπφίᾳ	syllable 2	1st-c. Koine, source case form as written (D-14 PENDING)	kept as sound; f, dative	
+arkhippō	अर्खि॑प्पो	Greek Ἀρχίππῳ	syllable 2	1st-c. Koine, source case form as written (D-14 PENDING)	kept as sound; m, dative	
+khristū	ख्रिस्तू॑	Greek Χριστοῦ	syllable 2	1st-c. Koine, source case form as written (D-14 PENDING)	kept as sound; m, genitive	
+khristŏn	ख्रिस्तॊ॑न्	Greek Χριστόν	syllable 2	1st-c. Koine, source case form as written (D-14 PENDING)	kept as sound; m, accusative	
+khristō	ख्रिस्तो॑	Greek Χριστῷ	syllable 2	1st-c. Koine, source case form as written (D-14 PENDING)	kept as sound; m, dative	
+iēsū	इएसू॑	Greek Ἰησοῦ	syllable 3	1st-c. Koine, source case form as written (D-14 PENDING); scanned as 2 syllables (i̯ē), Greek reviewer to confirm (D-16)	kept as sound; m, genitive/dative	yēsū
+iēsūn	इएसू॑न्	Greek Ἰησοῦν	syllable 3	1st-c. Koine, source case form as written (D-14 PENDING); scanned as 2 syllables (i̯ē), Greek reviewer to confirm (D-16)	kept as sound; m, accusative	yēsūn
+thĕū	थॆऊ॑	Greek θεοῦ	syllable 2	1st-c. Koine, source case form as written (D-14 PENDING)	kept as sound; m, genitive	
+thĕō	थॆओ॑	Greek θεῷ	syllable 2	1st-c. Koine, source case form as written (D-14 PENDING)	kept as sound; m, dative	
+ŏnēsimŏn	ऒने॑सिमॊन्	Greek Ὀνήσιμον	syllable 2	1st-c. Koine, source case form as written (D-14 PENDING)	kept as sound; m, accusative	
+ĕpaphrās	ऎपफ्रा॑स्	Greek Ἐπαφρᾶς	syllable 3	1st-c. Koine, source case form as written (D-14 PENDING)	kept as sound; m	
+mārkŏs	मा॑र्कॊस्	Greek Μᾶρκος	syllable 1	1st-c. Koine, source case form as written (D-14 PENDING)	kept as sound; m	
+aristarkhŏs	अरि॑स्तर्खॊस्	Greek Ἀρίσταρχος	syllable 2	1st-c. Koine, source case form as written (D-14 PENDING)	kept as sound; m	
+dēmās	देमा॑स्	Greek Δημᾶς	syllable 2	1st-c. Koine, source case form as written (D-14 PENDING)	kept as sound; m	
+lūkās	लूका॑स्	Greek Λουκᾶς	syllable 2	1st-c. Koine, source case form as written (D-14 PENDING)	kept as sound; m	
+pneumatŏs	प्ने॑उमतॊस्	Greek πνεύματος	syllable 1	1st-c. Koine, source case form as written (D-14 PENDING)	kept as sound; n, genitive	

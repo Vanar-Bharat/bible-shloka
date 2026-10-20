@@ -9,7 +9,16 @@ for row in csv.reader(open('register/loanwords.tsv', encoding='utf8'), delimiter
     if row and not row[0].startswith('#'): LOAN[row[0]] = row[1]
 def word(w):
     return '-'.join(LOAN.get(part) or transliterate(part, sanscript.IAST, sanscript.DEVANAGARI) for part in w.split('-'))
-def deva(p): return ' '.join(word(w) for w in p.split())
+def deva(p):
+    # Join a consonant-final Sanskrit word to the next Sanskrit word (शान्तिश्च), and an avagraha word to the one before (वोऽस्तु).
+    # Kept (loan) words always stay separate.
+    out = []
+    for w in p.split():
+        d = word(w); loan = any(part in LOAN for part in w.split('-'))
+        if out and not loan and not out[-1][1] and (d.startswith('ऽ') or out[-1][0].endswith('्')):
+            out[-1] = (out[-1][0] + d, False); continue
+        out.append((d, loan))
+    return ' '.join(x for x, _ in out)
 out, buf, n, ref = [], [], 0, ''
 for line in open(sys.argv[1], encoding='utf8'):
     line = line.strip()
