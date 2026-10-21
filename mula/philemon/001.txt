@@ -1,5 +1,5 @@
-# Philemon 1:1-25 | draft 2 (κύριος = svāmin, ratified 21 Oct 2026) | maker: Claude (Anthropic) | reviewer: pending (non-Anthropic, R2)
-# Source: SBLGNT. Kept words in their source case form (D-14), kyrios rendered svāmin (D-15, ratified), Iēsous scanned as 2 syllables (D-16), no sandhi at kept words (D-17). All PENDING.
+# Philemon 1:1-25 | draft 3 (κύριος = svāmin; corrections after review 1, ChatGPT, 21 Oct 2026) | maker: Claude (Anthropic) | reviewer: pending (non-Anthropic, R2)
+# Source: SBLGNT. Kept as sound: names, and terms with no full Sanskrit equivalent (D-14, ratified); their Greek case form is pending (D-14b). κύριος = svāmin (ratified). Iēsous scanned as 2 syllables (working rule, D-16). No sandhi at kept words (D-17, ratified).
 # Phlm 1:1
 khristū iēsū hi bandī yaḥ
 paulŏs timŏthĕŏs ca saḥ
@@ -16,7 +16,7 @@ asmākaṃ hi thĕū pituḥ
 tathaiva svāminaḥ iēsū
 # Phlm 1:3-4
 khristū ahaṃ thĕō mama
-kṛtajñaḥ san smarāmi tvām
+kṛtajño 'smi smaraṃs tvāṃ hi
 sadā me prārthanāsu ca
 # Phlm 1:5
 śṛṇvaṃs te prema ca śraddhām
@@ -52,7 +52,7 @@ mahyaṃ ca yaṃ prati tvāṃ tu
 preṣaye hṛdayaṃ mama
 # Phlm 1:13
 yaṃ ca rakṣitum aicchaṃ me
-tvadarthaṃ māṃ sa sevatām
+tvatsthāne māṃ sa sevatām
 susandeśasya bandhe 'smin
 # Phlm 1:14
 vinā tu tava sammatim
@@ -73,17 +73,17 @@ yady ato manyase tvaṃ tu
 māṃ hi te sahabhāginam
 taṃ gṛhāṇa yathā māṃ tu
 # Phlm 1:18
-yadi te so 'parādhyati
-ṛṇī vā tad ṛṇaṃ sarvam
+yadi te so 'parāddhavān
+ṛṇī vā tat samastaṃ ca
 mayi tal likhyatāṃ tvayā
 # Phlm 1:19
 ahaṃ paulŏs svahastena
-likhāmy ahaṃ dadāni ca
+likhāmi dāsyate mayā
 vaktuṃ necchāmi yat tvaṃ me
 ātmānam api dhārayeḥ
 # Phlm 1:20
 tvattaḥ svāmini me lābhaḥ
-ām bhrātar hṛdayaṃ mama
+āṃ bhrātar hṛdayaṃ mama
 khristō āśvāsaya tvaṃ ca
 # Phlm 1:21
 pratīya vaśyatāṃ tava
@@ -98,9 +98,9 @@ yuṣmatprārthanayā dāsye
 yuṣmabhyaṃ punar āgataḥ
 # Phlm 1:23
 ĕpaphrās sahabandī me
-khristō iēsū namo 'stu te
+khristō iēsū namasyati
 # Phlm 1:24
-me ca mārkŏs aristarkhŏs
+tvāṃ ca mārkŏs aristarkhŏs
 dēmās lūkās sahāyinaḥ
 # Phlm 1:25
 prasādaḥ svāminaḥ iēsū

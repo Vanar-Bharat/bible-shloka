@@ -13,9 +13,9 @@ Phlm.1.3:
   fillers: [hi]
   added: {astu: optative "be" implied by the salutation, tathaiva: renders καί}
 Phlm.1.4:
-  map: {εὐχαριστέω: "kṛtajñaḥ san", θεός: thĕō, ἐγώ: mama/me, πάντοτε: sadā, "μνεία ποιέω": smarāmi, σύ: tvām, προσευχή: prārthanāsu}
-  fillers: [ca]
-  note: Greek main verb (thank) and participle (making mention) are inverted; meaning kept. Reviewer to check.
+  map: {εὐχαριστέω: "kṛtajño 'smi", θεός: thĕō, ἐγώ: mama/me, πάντοτε: sadā, "μνεία ποιέω": smaran, σύ: tvām, προσευχή: prārthanāsu}
+  fillers: [hi, ca]
+  note: Fixed after review 1. Finite verb (kṛtajño 'smi) for the main verb and a participle (smaran) for the Greek participle.
 Phlm.1.5:
   map: {ἀκούω: śṛṇvan, σύ: te, ἀγάπη: prema, πίστις: śraddhām, ἔχω: yā (relative), πρός: prati, κύριος: svāminam, Ἰησοῦς: iēsūn, εἰς: prati, πᾶς: sarvān, ἅγιος: sataḥ}
   note: "Chiastic order kept: love and faith; toward all the saints (tathā); faith toward the Lord Jesus (yā). ἣν ἔχεις carried by the relative yā."
@@ -46,7 +46,7 @@ Phlm.1.12:
   fillers: [tu]
   omitted: {αὐτόν: resumptive pronoun, τοῦτ’ ἔστιν: "that is", both carried by apposition}
 Phlm.1.13:
-  map: {ὅς: yam, ἐγώ: me, βούλομαι: aiccham, "πρὸς ἐμαυτόν": me, κατέχω: rakṣitum, ἵνα: "(jussive)", "ὑπὲρ σοῦ": tvadartham, ἐγώ: mām, διακονέω: sevatām, δεσμός: bandhe, εὐαγγέλιον: susandeśasya}
+  map: {ὅς: yam, ἐγώ: me, βούλομαι: aiccham, "πρὸς ἐμαυτόν": me, κατέχω: rakṣitum, ἵνα: "(jussive)", "ὑπὲρ σοῦ": tvatsthāne, ἐγώ: mām, διακονέω: sevatām, δεσμός: bandhe, εὐαγγέλιον: susandeśasya}
   added: {asmin: renders the article τοῖς}
 Phlm.1.14:
   map: {χωρίς: vinā, σός: tava, γνώμη: sammatim, οὐδείς: "na … kiṃcana", θέλω: aiccham, ποιέω: kartum, "ἵνα μή": "yathā na", ἀνάγκη: balāt, ἀγαθός: śubham, σύ: te, ἀλλά: "api tu", ἑκούσιος: svecchikam, εἰμί: syāt}
@@ -64,15 +64,15 @@ Phlm.1.17:
   fillers: [tu, hi, tu]
   added: {te: "your (partner)"}
 Phlm.1.18:
-  map: {εἰ: yadi, τις: sarvam, ἀδικέω: aparādhyati, σύ: te, ἤ: vā, ὀφείλω: ṛṇī, οὗτος: tat, ἐγώ: mayi, ἐλλογάω: likhyatām}
-  added: {ṛṇam: "debt", tvayā: agent of the passive}
-  note: Greek aorist ἠδίκησεν rendered present.
-Phlm.1.19:
-  map: {ἐγώ: aham, Παῦλος: paulŏs, γράφω: likhāmi, ἐμός: sva-, χείρ: hastena, ἀποτίνω: dadāni, "ἵνα μὴ λέγω": "vaktuṃ na icchāmi", σύ: tvam, ὅτι: yat, σεαυτόν: ātmānam, καί: api, προσοφείλω: dhārayeḥ}
+  map: {εἰ: yadi, τις: sarvam, ἀδικέω: aparāddhavān, σύ: te, ἤ: vā, ὀφείλω: ṛṇī, οὗτος: "tat samastam", ἐγώ: mayi, ἐλλογάω: likhyatām}
   fillers: [ca]
-  note: ἀποτίσω ("I will repay") rendered dadāni; προσοφείλεις (indicative) rendered optative dhārayeḥ for metre. Both for the Sanskrit reviewer.
+  added: {tvayā: agent of the passive}
+  note: Fixed after review 1. Aorist rendered as past (aparāddhavān); "tat samastam" covers both the wrong and the debt.
+Phlm.1.19:
+  map: {ἐγώ: aham, Παῦλος: paulŏs, γράφω: likhāmi, ἐμός: sva-, χείρ: hastena, ἀποτίνω: "dāsyate mayā", "ἵνα μὴ λέγω": "vaktuṃ na icchāmi", σύ: tvam, ὅτι: yat, σεαυτόν: ātmānam, καί: api, προσοφείλω: dhārayeḥ}
+  note: Fixed after review 1. ἀποτίσω is rendered "it will be paid by me" (dāsyate mayā). προσοφείλεις (indicative) rendered optative dhārayeḥ for metre. Both for the Sanskrit reviewer.
 Phlm.1.20:
-  map: {ναί: ām, ἀδελφός: bhrātaḥ, ἐγώ: me, σύ: tvattaḥ, ὀνίνημι: lābhaḥ, "ἐν κυρίῳ": svāmini, ἀναπαύω: āśvāsaya, ἐγώ: mama, σπλάγχνον: hṛdayam, "ἐν Χριστῷ": khristō}
+  map: {ναί: āṃ, ἀδελφός: bhrātaḥ, ἐγώ: me, σύ: tvattaḥ, ὀνίνημι: lābhaḥ, "ἐν κυρίῳ": svāmini, ἀναπαύω: āśvāsaya, ἐγώ: mama, σπλάγχνον: hṛdayam, "ἐν Χριστῷ": khristō}
   fillers: [ca]
   note: The two clauses are reordered across pādas.
 Phlm.1.21:
@@ -85,9 +85,10 @@ Phlm.1.22:
   added: {punar āgataḥ: "having come back", the sense of "restored to you"}
   note: Plural προσευχῶν rendered singular in compound.
 Phlm.1.23:
-  map: {ἀσπάζομαι: "namo 'stu", σύ: te, Ἐπαφρᾶς: ĕpaphrās, συναιχμάλωτος: sahabandī, ἐγώ: me, "ἐν Χριστῷ": khristō, Ἰησοῦς: iēsū}
+  map: {ἀσπάζομαι: namasyati, σύ: "tvām (P77)", Ἐπαφρᾶς: ĕpaphrās, συναιχμάλωτος: sahabandī, ἐγώ: me, "ἐν Χριστῷ": khristō, Ἰησοῦς: iēsū}
 Phlm.1.24:
-  map: {Μᾶρκος: mārkŏs, Ἀρίσταρχος: aristarkhŏs, Δημᾶς: dēmās, Λουκᾶς: lūkās, συνεργός: sahāyinaḥ, ἐγώ: me}
+  map: {Μᾶρκος: mārkŏs, Ἀρίσταρχος: aristarkhŏs, Δημᾶς: dēmās, Λουκᾶς: lūkās, συνεργός: sahāyinaḥ}
+  omitted: {μου: "my (fellow workers); the pāda carries tvām, the object of the greeting"}
   added: {ca: "also", for the greeting implied from v23}
 Phlm.1.25:
   map: {χάρις: prasādaḥ, κύριος: svāminaḥ, Ἰησοῦς: iēsū, Χριστός: khristū, μετά: saha, πνεῦμα: pneumatŏs, ὑμεῖς: vaḥ}

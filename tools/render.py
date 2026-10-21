@@ -20,14 +20,20 @@ def deva(p):
         out.append((d, loan))
     return ' '.join(x for x, _ in out)
 out, buf, n, ref = [], [], 0, ''
+header = []
 for line in open(sys.argv[1], encoding='utf8'):
     line = line.strip()
-    if line.startswith('# ') and ':' in line and '|' not in line: ref = line[2:]; continue
-    if not line or line.startswith('#'): continue
+    if line.startswith('# ') and re.match(r'# \S+ \d+:\d+(-\d+)?$', line): ref = line[2:]; continue
+    if line.startswith('#'): header.append(line); continue
+    if not line: continue
     buf.append((line, ref))
     if len(buf) % 4 == 0:
         n += 1
         a, b, c, d = [deva(x[0]) for x in buf[-4:]]
-        refs = sorted({x[1] for x in buf[-4:]}, key=lambda r: [int(t) for t in re.findall(r'\d+', r)])
-        out.append(f'{a} {b} ।\n{c} {d} ॥{n}॥   [{", ".join(refs)}]')
+        nums = sorted({int(v) for x in buf[-4:] for v in re.findall(r':(\d+)(?:-(\d+))?', x[1])[0] if v})
+        bk = re.match(r'(.*?\d+):', buf[-4][1]).group(1)
+        rng = f'{bk}:{nums[0]}' + (f'–{nums[-1]}' if nums[-1] != nums[0] else '')
+        out.append(f'{a} {b} ।\n{c} {d} ॥{n}॥   [{rng}]')
+print('\n'.join(header + ['# Pronunciation key: ॑ marks the stressed syllable of a kept word; ऎ/ऒ are short e/o; nukta letters (ह़ ख़) mark Hebrew sounds. See README.']))
+print()
 print('\n\n'.join(out))
