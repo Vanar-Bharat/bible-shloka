@@ -1,0 +1,335 @@
+ref	n	surface	lemma	morph	lang	pos	gender	number	person
+Phlm.1.1	1	Παῦλος	Παῦλος	N- ----NSM-	grc	N	m	s	
+Phlm.1.1	2	δέσμιος	δέσμιος	N- ----NSM-	grc	N	m	s	
+Phlm.1.1	3	Χριστοῦ	Χριστός	N- ----GSM-	grc	N	m	s	
+Phlm.1.1	4	Ἰησοῦ	Ἰησοῦς	N- ----GSM-	grc	N	m	s	
+Phlm.1.1	5	καὶ	καί	C- --------	grc	C			
+Phlm.1.1	6	Τιμόθεος	Τιμόθεος	N- ----NSM-	grc	N	m	s	
+Phlm.1.1	7	ὁ	ὁ	RA ----NSM-	grc	RA	m	s	
+Phlm.1.1	8	ἀδελφὸς	ἀδελφός	N- ----NSM-	grc	N	m	s	
+Phlm.1.1	9	Φιλήμονι	Φιλήμων	N- ----DSM-	grc	N	m	s	
+Phlm.1.1	10	τῷ	ὁ	RA ----DSM-	grc	RA	m	s	
+Phlm.1.1	11	ἀγαπητῷ	ἀγαπητός	A- ----DSM-	grc	A	m	s	
+Phlm.1.1	12	καὶ	καί	C- --------	grc	C			
+Phlm.1.1	13	συνεργῷ	συνεργός	A- ----DSM-	grc	A	m	s	
+Phlm.1.1	14	ἡμῶν	ἐγώ	RP ----GP--	grc	RP		p	
+Phlm.1.2	1	καὶ	καί	C- --------	grc	C			
+Phlm.1.2	2	Ἀπφίᾳ	Ἀπφία	N- ----DSF-	grc	N	f	s	
+Phlm.1.2	3	τῇ	ὁ	RA ----DSF-	grc	RA	f	s	
+Phlm.1.2	4	ἀδελφῇ	ἀδελφή	N- ----DSF-	grc	N	f	s	
+Phlm.1.2	5	καὶ	καί	C- --------	grc	C			
+Phlm.1.2	6	Ἀρχίππῳ	Ἄρχιππος	N- ----DSM-	grc	N	m	s	
+Phlm.1.2	7	τῷ	ὁ	RA ----DSM-	grc	RA	m	s	
+Phlm.1.2	8	συστρατιώτῃ	συστρατιώτης	N- ----DSM-	grc	N	m	s	
+Phlm.1.2	9	ἡμῶν	ἐγώ	RP ----GP--	grc	RP		p	
+Phlm.1.2	10	καὶ	καί	C- --------	grc	C			
+Phlm.1.2	11	τῇ	ὁ	RA ----DSF-	grc	RA	f	s	
+Phlm.1.2	12	κατ’	κατά	P- --------	grc	P			
+Phlm.1.2	13	οἶκόν	οἶκος	N- ----ASM-	grc	N	m	s	
+Phlm.1.2	14	σου	σύ	RP ----GS--	grc	RP		s	
+Phlm.1.2	15	ἐκκλησίᾳ	ἐκκλησία	N- ----DSF-	grc	N	f	s	
+Phlm.1.3	1	χάρις	χάρις	N- ----NSF-	grc	N	f	s	
+Phlm.1.3	2	ὑμῖν	σύ	RP ----DP--	grc	RP		p	
+Phlm.1.3	3	καὶ	καί	C- --------	grc	C			
+Phlm.1.3	4	εἰρήνη	εἰρήνη	N- ----NSF-	grc	N	f	s	
+Phlm.1.3	5	ἀπὸ	ἀπό	P- --------	grc	P			
+Phlm.1.3	6	θεοῦ	θεός	N- ----GSM-	grc	N	m	s	
+Phlm.1.3	7	πατρὸς	πατήρ	N- ----GSM-	grc	N	m	s	
+Phlm.1.3	8	ἡμῶν	ἐγώ	RP ----GP--	grc	RP		p	
+Phlm.1.3	9	καὶ	καί	C- --------	grc	C			
+Phlm.1.3	10	κυρίου	κύριος	N- ----GSM-	grc	N	m	s	
+Phlm.1.3	11	Ἰησοῦ	Ἰησοῦς	N- ----GSM-	grc	N	m	s	
+Phlm.1.3	12	Χριστοῦ	Χριστός	N- ----GSM-	grc	N	m	s	
+Phlm.1.4	1	Εὐχαριστῶ	εὐχαριστέω	V- 1PAI-S--	grc	V		s	1
+Phlm.1.4	2	τῷ	ὁ	RA ----DSM-	grc	RA	m	s	
+Phlm.1.4	3	θεῷ	θεός	N- ----DSM-	grc	N	m	s	
+Phlm.1.4	4	μου	ἐγώ	RP ----GS--	grc	RP		s	
+Phlm.1.4	5	πάντοτε	πάντοτε	D- --------	grc	D			
+Phlm.1.4	6	μνείαν	μνεία	N- ----ASF-	grc	N	f	s	
+Phlm.1.4	7	σου	σύ	RP ----GS--	grc	RP		s	
+Phlm.1.4	8	ποιούμενος	ποιέω	V- -PMPNSM-	grc	V	m	s	
+Phlm.1.4	9	ἐπὶ	ἐπί	P- --------	grc	P			
+Phlm.1.4	10	τῶν	ὁ	RA ----GPF-	grc	RA	f	p	
+Phlm.1.4	11	προσευχῶν	προσευχή	N- ----GPF-	grc	N	f	p	
+Phlm.1.4	12	μου	ἐγώ	RP ----GS--	grc	RP		s	
+Phlm.1.5	1	ἀκούων	ἀκούω	V- -PAPNSM-	grc	V	m	s	
+Phlm.1.5	2	σου	σύ	RP ----GS--	grc	RP		s	
+Phlm.1.5	3	τὴν	ὁ	RA ----ASF-	grc	RA	f	s	
+Phlm.1.5	4	ἀγάπην	ἀγάπη	N- ----ASF-	grc	N	f	s	
+Phlm.1.5	5	καὶ	καί	C- --------	grc	C			
+Phlm.1.5	6	τὴν	ὁ	RA ----ASF-	grc	RA	f	s	
+Phlm.1.5	7	πίστιν	πίστις	N- ----ASF-	grc	N	f	s	
+Phlm.1.5	8	ἣν	ὅς	RR ----ASF-	grc	RR	f	s	
+Phlm.1.5	9	ἔχεις	ἔχω	V- 2PAI-S--	grc	V		s	2
+Phlm.1.5	10	πρὸς	πρός	P- --------	grc	P			
+Phlm.1.5	11	τὸν	ὁ	RA ----ASM-	grc	RA	m	s	
+Phlm.1.5	12	κύριον	κύριος	N- ----ASM-	grc	N	m	s	
+Phlm.1.5	13	Ἰησοῦν	Ἰησοῦς	N- ----ASM-	grc	N	m	s	
+Phlm.1.5	14	καὶ	καί	C- --------	grc	C			
+Phlm.1.5	15	εἰς	εἰς	P- --------	grc	P			
+Phlm.1.5	16	πάντας	πᾶς	A- ----APM-	grc	A	m	p	
+Phlm.1.5	17	τοὺς	ὁ	RA ----APM-	grc	RA	m	p	
+Phlm.1.5	18	ἁγίους	ἅγιος	A- ----APM-	grc	A	m	p	
+Phlm.1.6	1	ὅπως	ὅπως	C- --------	grc	C			
+Phlm.1.6	2	ἡ	ὁ	RA ----NSF-	grc	RA	f	s	
+Phlm.1.6	3	κοινωνία	κοινωνία	N- ----NSF-	grc	N	f	s	
+Phlm.1.6	4	τῆς	ὁ	RA ----GSF-	grc	RA	f	s	
+Phlm.1.6	5	πίστεώς	πίστις	N- ----GSF-	grc	N	f	s	
+Phlm.1.6	6	σου	σύ	RP ----GS--	grc	RP		s	
+Phlm.1.6	7	ἐνεργὴς	ἐνεργής	A- ----NSF-	grc	A	f	s	
+Phlm.1.6	8	γένηται	γίνομαι	V- 3AMS-S--	grc	V		s	3
+Phlm.1.6	9	ἐν	ἐν	P- --------	grc	P			
+Phlm.1.6	10	ἐπιγνώσει	ἐπίγνωσις	N- ----DSF-	grc	N	f	s	
+Phlm.1.6	11	παντὸς	πᾶς	A- ----GSN-	grc	A	n	s	
+Phlm.1.6	12	ἀγαθοῦ	ἀγαθός	A- ----GSN-	grc	A	n	s	
+Phlm.1.6	13	τοῦ	ὁ	RA ----GSN-	grc	RA	n	s	
+Phlm.1.6	14	ἐν	ἐν	P- --------	grc	P			
+Phlm.1.6	15	ἡμῖν	ἐγώ	RP ----DP--	grc	RP		p	
+Phlm.1.6	16	εἰς	εἰς	P- --------	grc	P			
+Phlm.1.6	17	Χριστόν	Χριστός	N- ----ASM-	grc	N	m	s	
+Phlm.1.7	1	χαρὰν	χαρά	N- ----ASF-	grc	N	f	s	
+Phlm.1.7	2	γὰρ	γάρ	C- --------	grc	C			
+Phlm.1.7	3	πολλὴν	πολύς	A- ----ASF-	grc	A	f	s	
+Phlm.1.7	4	ἔσχον	ἔχω	V- 1AAI-S--	grc	V		s	1
+Phlm.1.7	5	καὶ	καί	C- --------	grc	C			
+Phlm.1.7	6	παράκλησιν	παράκλησις	N- ----ASF-	grc	N	f	s	
+Phlm.1.7	7	ἐπὶ	ἐπί	P- --------	grc	P			
+Phlm.1.7	8	τῇ	ὁ	RA ----DSF-	grc	RA	f	s	
+Phlm.1.7	9	ἀγάπῃ	ἀγάπη	N- ----DSF-	grc	N	f	s	
+Phlm.1.7	10	σου	σύ	RP ----GS--	grc	RP		s	
+Phlm.1.7	11	ὅτι	ὅτι	C- --------	grc	C			
+Phlm.1.7	12	τὰ	ὁ	RA ----NPN-	grc	RA	n	p	
+Phlm.1.7	13	σπλάγχνα	σπλάγχνον	N- ----NPN-	grc	N	n	p	
+Phlm.1.7	14	τῶν	ὁ	RA ----GPM-	grc	RA	m	p	
+Phlm.1.7	15	ἁγίων	ἅγιος	A- ----GPM-	grc	A	m	p	
+Phlm.1.7	16	ἀναπέπαυται	ἀναπαύω	V- 3XPI-S--	grc	V		s	3
+Phlm.1.7	17	διὰ	διά	P- --------	grc	P			
+Phlm.1.7	18	σοῦ	σύ	RP ----GS--	grc	RP		s	
+Phlm.1.7	19	ἀδελφέ	ἀδελφός	N- ----VSM-	grc	N	m	s	
+Phlm.1.8	1	Διό	διό	C- --------	grc	C			
+Phlm.1.8	2	πολλὴν	πολύς	A- ----ASF-	grc	A	f	s	
+Phlm.1.8	3	ἐν	ἐν	P- --------	grc	P			
+Phlm.1.8	4	Χριστῷ	Χριστός	N- ----DSM-	grc	N	m	s	
+Phlm.1.8	5	παρρησίαν	παρρησία	N- ----ASF-	grc	N	f	s	
+Phlm.1.8	6	ἔχων	ἔχω	V- -PAPNSM-	grc	V	m	s	
+Phlm.1.8	7	ἐπιτάσσειν	ἐπιτάσσω	V- -PAN----	grc	V			
+Phlm.1.8	8	σοι	σύ	RP ----DS--	grc	RP		s	
+Phlm.1.8	9	τὸ	ὁ	RA ----ASN-	grc	RA	n	s	
+Phlm.1.8	10	ἀνῆκον	ἀνήκω	V- -PAPASN-	grc	V	n	s	
+Phlm.1.9	1	διὰ	διά	P- --------	grc	P			
+Phlm.1.9	2	τὴν	ὁ	RA ----ASF-	grc	RA	f	s	
+Phlm.1.9	3	ἀγάπην	ἀγάπη	N- ----ASF-	grc	N	f	s	
+Phlm.1.9	4	μᾶλλον	μᾶλλον	D- --------	grc	D			
+Phlm.1.9	5	παρακαλῶ	παρακαλέω	V- 1PAI-S--	grc	V		s	1
+Phlm.1.9	6	τοιοῦτος	τοιοῦτος	RD ----NSM-	grc	RD	m	s	
+Phlm.1.9	7	ὢν	εἰμί	V- -PAPNSM-	grc	V	m	s	
+Phlm.1.9	8	ὡς	ὡς	C- --------	grc	C			
+Phlm.1.9	9	Παῦλος	Παῦλος	N- ----NSM-	grc	N	m	s	
+Phlm.1.9	10	πρεσβύτης	πρεσβύτης	N- ----NSM-	grc	N	m	s	
+Phlm.1.9	11	νυνὶ	νυνί	D- --------	grc	D			
+Phlm.1.9	12	δὲ	δέ	C- --------	grc	C			
+Phlm.1.9	13	καὶ	καί	D- --------	grc	D			
+Phlm.1.9	14	δέσμιος	δέσμιος	N- ----NSM-	grc	N	m	s	
+Phlm.1.9	15	Χριστοῦ	Χριστός	N- ----GSM-	grc	N	m	s	
+Phlm.1.9	16	Ἰησοῦ	Ἰησοῦς	N- ----GSM-	grc	N	m	s	
+Phlm.1.10	1	παρακαλῶ	παρακαλέω	V- 1PAI-S--	grc	V		s	1
+Phlm.1.10	2	σε	σύ	RP ----AS--	grc	RP		s	
+Phlm.1.10	3	περὶ	περί	P- --------	grc	P			
+Phlm.1.10	4	τοῦ	ὁ	RA ----GSN-	grc	RA	n	s	
+Phlm.1.10	5	ἐμοῦ	ἐμός	A- ----GSN-	grc	A	n	s	
+Phlm.1.10	6	τέκνου	τέκνον	N- ----GSN-	grc	N	n	s	
+Phlm.1.10	7	ὃν	ὅς	RR ----ASM-	grc	RR	m	s	
+Phlm.1.10	8	ἐγέννησα	γεννάω	V- 1AAI-S--	grc	V		s	1
+Phlm.1.10	9	ἐν	ἐν	P- --------	grc	P			
+Phlm.1.10	10	τοῖς	ὁ	RA ----DPM-	grc	RA	m	p	
+Phlm.1.10	11	δεσμοῖς	δεσμός	N- ----DPM-	grc	N	m	p	
+Phlm.1.10	12	Ὀνήσιμον	Ὀνήσιμος	N- ----ASM-	grc	N	m	s	
+Phlm.1.11	1	τόν	ὁ	RA ----ASM-	grc	RA	m	s	
+Phlm.1.11	2	ποτέ	ποτέ	X- --------	grc	X			
+Phlm.1.11	3	σοι	σύ	RP ----DS--	grc	RP		s	
+Phlm.1.11	4	ἄχρηστον	ἄχρηστος	A- ----ASM-	grc	A	m	s	
+Phlm.1.11	5	νυνὶ	νυνί	D- --------	grc	D			
+Phlm.1.11	6	δὲ	δέ	C- --------	grc	C			
+Phlm.1.11	7	σοὶ	σύ	RP ----DS--	grc	RP		s	
+Phlm.1.11	8	καὶ	καί	C- --------	grc	C			
+Phlm.1.11	9	ἐμοὶ	ἐγώ	RP ----DS--	grc	RP		s	
+Phlm.1.11	10	εὔχρηστον	εὔχρηστος	A- ----ASM-	grc	A	m	s	
+Phlm.1.12	1	ὃν	ὅς	RR ----ASM-	grc	RR	m	s	
+Phlm.1.12	2	ἀνέπεμψά	ἀναπέμπω	V- 1AAI-S--	grc	V		s	1
+Phlm.1.12	3	σοι	σύ	RP ----DS--	grc	RP		s	
+Phlm.1.12	4	αὐτόν	αὐτός	RP ----ASM-	grc	RP	m	s	
+Phlm.1.12	5	τοῦτ’	οὗτος	RD ----NSN-	grc	RD	n	s	
+Phlm.1.12	6	ἔστιν	εἰμί	V- 3PAI-S--	grc	V		s	3
+Phlm.1.12	7	τὰ	ὁ	RA ----APN-	grc	RA	n	p	
+Phlm.1.12	8	ἐμὰ	ἐμός	A- ----APN-	grc	A	n	p	
+Phlm.1.12	9	σπλάγχνα	σπλάγχνον	N- ----APN-	grc	N	n	p	
+Phlm.1.13	1	ὃν	ὅς	RR ----ASM-	grc	RR	m	s	
+Phlm.1.13	2	ἐγὼ	ἐγώ	RP ----NS--	grc	RP		s	
+Phlm.1.13	3	ἐβουλόμην	βούλομαι	V- 1IMI-S--	grc	V		s	1
+Phlm.1.13	4	πρὸς	πρός	P- --------	grc	P			
+Phlm.1.13	5	ἐμαυτὸν	ἐμαυτοῦ	RP ----ASM-	grc	RP	m	s	
+Phlm.1.13	6	κατέχειν	κατέχω	V- -PAN----	grc	V			
+Phlm.1.13	7	ἵνα	ἵνα	C- --------	grc	C			
+Phlm.1.13	8	ὑπὲρ	ὑπέρ	P- --------	grc	P			
+Phlm.1.13	9	σοῦ	σύ	RP ----GS--	grc	RP		s	
+Phlm.1.13	10	μοι	ἐγώ	RP ----DS--	grc	RP		s	
+Phlm.1.13	11	διακονῇ	διακονέω	V- 3PAS-S--	grc	V		s	3
+Phlm.1.13	12	ἐν	ἐν	P- --------	grc	P			
+Phlm.1.13	13	τοῖς	ὁ	RA ----DPM-	grc	RA	m	p	
+Phlm.1.13	14	δεσμοῖς	δεσμός	N- ----DPM-	grc	N	m	p	
+Phlm.1.13	15	τοῦ	ὁ	RA ----GSN-	grc	RA	n	s	
+Phlm.1.13	16	εὐαγγελίου	εὐαγγέλιον	N- ----GSN-	grc	N	n	s	
+Phlm.1.14	1	χωρὶς	χωρίς	P- --------	grc	P			
+Phlm.1.14	2	δὲ	δέ	C- --------	grc	C			
+Phlm.1.14	3	τῆς	ὁ	RA ----GSF-	grc	RA	f	s	
+Phlm.1.14	4	σῆς	σός	A- ----GSF-	grc	A	f	s	
+Phlm.1.14	5	γνώμης	γνώμη	N- ----GSF-	grc	N	f	s	
+Phlm.1.14	6	οὐδὲν	οὐδείς	A- ----ASN-	grc	A	n	s	
+Phlm.1.14	7	ἠθέλησα	θέλω	V- 1AAI-S--	grc	V		s	1
+Phlm.1.14	8	ποιῆσαι	ποιέω	V- -AAN----	grc	V			
+Phlm.1.14	9	ἵνα	ἵνα	C- --------	grc	C			
+Phlm.1.14	10	μὴ	μή	D- --------	grc	D			
+Phlm.1.14	11	ὡς	ὡς	C- --------	grc	C			
+Phlm.1.14	12	κατὰ	κατά	P- --------	grc	P			
+Phlm.1.14	13	ἀνάγκην	ἀνάγκη	N- ----ASF-	grc	N	f	s	
+Phlm.1.14	14	τὸ	ὁ	RA ----NSN-	grc	RA	n	s	
+Phlm.1.14	15	ἀγαθόν	ἀγαθός	A- ----NSN-	grc	A	n	s	
+Phlm.1.14	16	σου	σύ	RP ----GS--	grc	RP		s	
+Phlm.1.14	17	ᾖ	εἰμί	V- 3PAS-S--	grc	V		s	3
+Phlm.1.14	18	ἀλλὰ	ἀλλά	C- --------	grc	C			
+Phlm.1.14	19	κατὰ	κατά	P- --------	grc	P			
+Phlm.1.14	20	ἑκούσιον	ἑκούσιος	A- ----ASN-	grc	A	n	s	
+Phlm.1.15	1	τάχα	τάχα	D- --------	grc	D			
+Phlm.1.15	2	γὰρ	γάρ	C- --------	grc	C			
+Phlm.1.15	3	διὰ	διά	P- --------	grc	P			
+Phlm.1.15	4	τοῦτο	οὗτος	RD ----ASN-	grc	RD	n	s	
+Phlm.1.15	5	ἐχωρίσθη	χωρίζω	V- 3API-S--	grc	V		s	3
+Phlm.1.15	6	πρὸς	πρός	P- --------	grc	P			
+Phlm.1.15	7	ὥραν	ὥρα	N- ----ASF-	grc	N	f	s	
+Phlm.1.15	8	ἵνα	ἵνα	C- --------	grc	C			
+Phlm.1.15	9	αἰώνιον	αἰώνιος	A- ----ASM-	grc	A	m	s	
+Phlm.1.15	10	αὐτὸν	αὐτός	RP ----ASM-	grc	RP	m	s	
+Phlm.1.15	11	ἀπέχῃς	ἀπέχω	V- 2AAS-S--	grc	V		s	2
+Phlm.1.16	1	οὐκέτι	οὐκέτι	D- --------	grc	D			
+Phlm.1.16	2	ὡς	ὡς	C- --------	grc	C			
+Phlm.1.16	3	δοῦλον	δοῦλος	N- ----ASM-	grc	N	m	s	
+Phlm.1.16	4	ἀλλὰ	ἀλλά	C- --------	grc	C			
+Phlm.1.16	5	ὑπὲρ	ὑπέρ	P- --------	grc	P			
+Phlm.1.16	6	δοῦλον	δοῦλος	N- ----ASM-	grc	N	m	s	
+Phlm.1.16	7	ἀδελφὸν	ἀδελφός	N- ----ASM-	grc	N	m	s	
+Phlm.1.16	8	ἀγαπητόν	ἀγαπητός	A- ----ASM-	grc	A	m	s	
+Phlm.1.16	9	μάλιστα	μάλιστα	D- --------	grc	D			
+Phlm.1.16	10	ἐμοί	ἐγώ	RP ----DS--	grc	RP		s	
+Phlm.1.16	11	πόσῳ	πόσος	RI ----DSN-	grc	RI	n	s	
+Phlm.1.16	12	δὲ	δέ	C- --------	grc	C			
+Phlm.1.16	13	μᾶλλον	μᾶλλον	D- --------	grc	D			
+Phlm.1.16	14	σοὶ	σύ	RP ----DS--	grc	RP		s	
+Phlm.1.16	15	καὶ	καί	C- --------	grc	C			
+Phlm.1.16	16	ἐν	ἐν	P- --------	grc	P			
+Phlm.1.16	17	σαρκὶ	σάρξ	N- ----DSF-	grc	N	f	s	
+Phlm.1.16	18	καὶ	καί	C- --------	grc	C			
+Phlm.1.16	19	ἐν	ἐν	P- --------	grc	P			
+Phlm.1.16	20	κυρίῳ	κύριος	N- ----DSM-	grc	N	m	s	
+Phlm.1.17	1	Εἰ	εἰ	C- --------	grc	C			
+Phlm.1.17	2	οὖν	οὖν	C- --------	grc	C			
+Phlm.1.17	3	με	ἐγώ	RP ----AS--	grc	RP		s	
+Phlm.1.17	4	ἔχεις	ἔχω	V- 2PAI-S--	grc	V		s	2
+Phlm.1.17	5	κοινωνόν	κοινωνός	N- ----ASM-	grc	N	m	s	
+Phlm.1.17	6	προσλαβοῦ	προσλαμβάνομαι	V- 2AMD-S--	grc	V		s	2
+Phlm.1.17	7	αὐτὸν	αὐτός	RP ----ASM-	grc	RP	m	s	
+Phlm.1.17	8	ὡς	ὡς	C- --------	grc	C			
+Phlm.1.17	9	ἐμέ	ἐγώ	RP ----AS--	grc	RP		s	
+Phlm.1.18	1	εἰ	εἰ	C- --------	grc	C			
+Phlm.1.18	2	δέ	δέ	C- --------	grc	C			
+Phlm.1.18	3	τι	τις	RI ----ASN-	grc	RI	n	s	
+Phlm.1.18	4	ἠδίκησέν	ἀδικέω	V- 3AAI-S--	grc	V		s	3
+Phlm.1.18	5	σε	σύ	RP ----AS--	grc	RP		s	
+Phlm.1.18	6	ἢ	ἤ	C- --------	grc	C			
+Phlm.1.18	7	ὀφείλει	ὀφείλω	V- 3PAI-S--	grc	V		s	3
+Phlm.1.18	8	τοῦτο	οὗτος	RD ----ASN-	grc	RD	n	s	
+Phlm.1.18	9	ἐμοὶ	ἐγώ	RP ----DS--	grc	RP		s	
+Phlm.1.18	10	ἐλλόγα	ἐλλογέω	V- 2PAD-S--	grc	V		s	2
+Phlm.1.19	1	ἐγὼ	ἐγώ	RP ----NS--	grc	RP		s	
+Phlm.1.19	2	Παῦλος	Παῦλος	N- ----NSM-	grc	N	m	s	
+Phlm.1.19	3	ἔγραψα	γράφω	V- 1AAI-S--	grc	V		s	1
+Phlm.1.19	4	τῇ	ὁ	RA ----DSF-	grc	RA	f	s	
+Phlm.1.19	5	ἐμῇ	ἐμός	A- ----DSF-	grc	A	f	s	
+Phlm.1.19	6	χειρί	χείρ	N- ----DSF-	grc	N	f	s	
+Phlm.1.19	7	ἐγὼ	ἐγώ	RP ----NS--	grc	RP		s	
+Phlm.1.19	8	ἀποτίσω	ἀποτίνω	V- 1FAI-S--	grc	V		s	1
+Phlm.1.19	9	ἵνα	ἵνα	C- --------	grc	C			
+Phlm.1.19	10	μὴ	μή	D- --------	grc	D			
+Phlm.1.19	11	λέγω	λέγω	V- 1PAS-S--	grc	V		s	1
+Phlm.1.19	12	σοι	σύ	RP ----DS--	grc	RP		s	
+Phlm.1.19	13	ὅτι	ὅτι	C- --------	grc	C			
+Phlm.1.19	14	καὶ	καί	D- --------	grc	D			
+Phlm.1.19	15	σεαυτόν	σεαυτοῦ	RP ----ASM-	grc	RP	m	s	
+Phlm.1.19	16	μοι	ἐγώ	RP ----DS--	grc	RP		s	
+Phlm.1.19	17	προσοφείλεις	προσοφείλω	V- 2PAI-S--	grc	V		s	2
+Phlm.1.20	1	ναί	ναί	X- --------	grc	X			
+Phlm.1.20	2	ἀδελφέ	ἀδελφός	N- ----VSM-	grc	N	m	s	
+Phlm.1.20	3	ἐγώ	ἐγώ	RP ----NS--	grc	RP		s	
+Phlm.1.20	4	σου	σύ	RP ----GS--	grc	RP		s	
+Phlm.1.20	5	ὀναίμην	ὀνίνημι	V- 1AMO-S--	grc	V		s	1
+Phlm.1.20	6	ἐν	ἐν	P- --------	grc	P			
+Phlm.1.20	7	κυρίῳ	κύριος	N- ----DSM-	grc	N	m	s	
+Phlm.1.20	8	ἀνάπαυσόν	ἀναπαύω	V- 2AAD-S--	grc	V		s	2
+Phlm.1.20	9	μου	ἐγώ	RP ----GS--	grc	RP		s	
+Phlm.1.20	10	τὰ	ὁ	RA ----APN-	grc	RA	n	p	
+Phlm.1.20	11	σπλάγχνα	σπλάγχνον	N- ----APN-	grc	N	n	p	
+Phlm.1.20	12	ἐν	ἐν	P- --------	grc	P			
+Phlm.1.20	13	Χριστῷ	Χριστός	N- ----DSM-	grc	N	m	s	
+Phlm.1.21	1	πεποιθὼς	πείθω	V- -XAPNSM-	grc	V	m	s	
+Phlm.1.21	2	τῇ	ὁ	RA ----DSF-	grc	RA	f	s	
+Phlm.1.21	3	ὑπακοῇ	ὑπακοή	N- ----DSF-	grc	N	f	s	
+Phlm.1.21	4	σου	σύ	RP ----GS--	grc	RP		s	
+Phlm.1.21	5	ἔγραψά	γράφω	V- 1AAI-S--	grc	V		s	1
+Phlm.1.21	6	σοι	σύ	RP ----DS--	grc	RP		s	
+Phlm.1.21	7	εἰδὼς	ὁράω	V- -XAPNSM-	grc	V	m	s	
+Phlm.1.21	8	ὅτι	ὅτι	C- --------	grc	C			
+Phlm.1.21	9	καὶ	καί	D- --------	grc	D			
+Phlm.1.21	10	ὑπὲρ	ὑπέρ	P- --------	grc	P			
+Phlm.1.21	11	ἃ	ὅς	RR ----APN-	grc	RR	n	p	
+Phlm.1.21	12	λέγω	λέγω	V- 1PAI-S--	grc	V		s	1
+Phlm.1.21	13	ποιήσεις	ποιέω	V- 2FAI-S--	grc	V		s	2
+Phlm.1.22	1	ἅμα	ἅμα	D- --------	grc	D			
+Phlm.1.22	2	δὲ	δέ	C- --------	grc	C			
+Phlm.1.22	3	καὶ	καί	D- --------	grc	D			
+Phlm.1.22	4	ἑτοίμαζέ	ἑτοιμάζω	V- 2PAD-S--	grc	V		s	2
+Phlm.1.22	5	μοι	ἐγώ	RP ----DS--	grc	RP		s	
+Phlm.1.22	6	ξενίαν	ξενία	N- ----ASF-	grc	N	f	s	
+Phlm.1.22	7	ἐλπίζω	ἐλπίζω	V- 1PAI-S--	grc	V		s	1
+Phlm.1.22	8	γὰρ	γάρ	C- --------	grc	C			
+Phlm.1.22	9	ὅτι	ὅτι	C- --------	grc	C			
+Phlm.1.22	10	διὰ	διά	P- --------	grc	P			
+Phlm.1.22	11	τῶν	ὁ	RA ----GPF-	grc	RA	f	p	
+Phlm.1.22	12	προσευχῶν	προσευχή	N- ----GPF-	grc	N	f	p	
+Phlm.1.22	13	ὑμῶν	σύ	RP ----GP--	grc	RP		p	
+Phlm.1.22	14	χαρισθήσομαι	χαρίζομαι	V- 1FPI-S--	grc	V		s	1
+Phlm.1.22	15	ὑμῖν	σύ	RP ----DP--	grc	RP		p	
+Phlm.1.23	1	Ἀσπάζεταί	ἀσπάζομαι	V- 3PMI-S--	grc	V		s	3
+Phlm.1.23	2	σε	σύ	RP ----AS--	grc	RP		s	
+Phlm.1.23	3	Ἐπαφρᾶς	Ἐπαφρᾶς	N- ----NSM-	grc	N	m	s	
+Phlm.1.23	4	ὁ	ὁ	RA ----NSM-	grc	RA	m	s	
+Phlm.1.23	5	συναιχμάλωτός	συναιχμάλωτος	N- ----NSM-	grc	N	m	s	
+Phlm.1.23	6	μου	ἐγώ	RP ----GS--	grc	RP		s	
+Phlm.1.23	7	ἐν	ἐν	P- --------	grc	P			
+Phlm.1.23	8	Χριστῷ	Χριστός	N- ----DSM-	grc	N	m	s	
+Phlm.1.23	9	Ἰησοῦ	Ἰησοῦς	N- ----DSM-	grc	N	m	s	
+Phlm.1.24	1	Μᾶρκος	Μᾶρκος	N- ----NSM-	grc	N	m	s	
+Phlm.1.24	2	Ἀρίσταρχος	Ἀρίσταρχος	N- ----NSM-	grc	N	m	s	
+Phlm.1.24	3	Δημᾶς	Δημᾶς	N- ----NSM-	grc	N	m	s	
+Phlm.1.24	4	Λουκᾶς	Λουκᾶς	N- ----NSM-	grc	N	m	s	
+Phlm.1.24	5	οἱ	ὁ	RA ----NPM-	grc	RA	m	p	
+Phlm.1.24	6	συνεργοί	συνεργός	A- ----NPM-	grc	A	m	p	
+Phlm.1.24	7	μου	ἐγώ	RP ----GS--	grc	RP		s	
+Phlm.1.25	1	Ἡ	ὁ	RA ----NSF-	grc	RA	f	s	
+Phlm.1.25	2	χάρις	χάρις	N- ----NSF-	grc	N	f	s	
+Phlm.1.25	3	τοῦ	ὁ	RA ----GSM-	grc	RA	m	s	
+Phlm.1.25	4	κυρίου	κύριος	N- ----GSM-	grc	N	m	s	
+Phlm.1.25	5	Ἰησοῦ	Ἰησοῦς	N- ----GSM-	grc	N	m	s	
+Phlm.1.25	6	Χριστοῦ	Χριστός	N- ----GSM-	grc	N	m	s	
+Phlm.1.25	7	μετὰ	μετά	P- --------	grc	P			
+Phlm.1.25	8	τοῦ	ὁ	RA ----GSN-	grc	RA	n	s	
+Phlm.1.25	9	πνεύματος	πνεῦμα	N- ----GSN-	grc	N	n	s	
+Phlm.1.25	10	ὑμῶν	σύ	RP ----GP--	grc	RP		p	

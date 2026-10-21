@@ -10,17 +10,32 @@ pada is free (anceps).
 Usage: anushtubh.py FILE  (one pada per line; '|' or blank lines ignored;
 lines starting with # are comments)
 """
+import sys as _s; _s.stdout.reconfigure(encoding='utf-8')  # Windows consoles default to cp1252
 import re, sys
-LONG = {'ā','ī','ū','ṝ','e','o','ai','au'}
+LONG = {'ā','ī','ū','ṝ','e','o','ē','ō','ai','au','eu'}  # ē ō: long e/o in loanwords; eu: Greek diphthong
 SHORT = {'a','i','u','ṛ','ḷ','ĕ','ŏ'}  # ĕ ŏ: short e/o in Hebrew/Greek loanwords
 ASP = ['kh','gh','ch','jh','ṭh','ḍh','th','dh','ph','bh']
 CONS = set('kgṅcjñṭḍṇtdnpbmyrlvśṣsh') | {'ħ','ʕ','ʔ'}  # ħ Hebrew het, ʕ ayin, ʔ aleph
+METRE = {}  # loanword -> metrical spelling (register/loanwords.tsv column 'metre'), e.g. iēsū -> yēsū
+try:
+    import csv, os
+    _f = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'register', 'loanwords.tsv')
+    for _r in csv.reader(open(_f, encoding='utf8'), delimiter='\t'):
+        if _r and not _r[0].startswith('#') and len(_r) > 6 and _r[6].strip():
+            METRE[_r[0]] = _r[6].strip()
+except OSError:
+    pass
 def tokens(p):
-    p = p.lower().replace("'", '').replace('-', '').replace(' ', '').replace('\u0301','')  # acute = stress, no weight
+    p = p.lower().replace("'", '').replace('\u0301', '')  # acute = stress, no weight
+    words = []
+    for w in p.split():
+        words.append('-'.join(METRE.get(part, part) for part in w.split('-')))
+    p = '|'.join(words).replace('-', '')   # '|' marks a word boundary: no diphthong across it
     out, i = [], 0
     while i < len(p):
+        if p[i] == '|': i += 1; continue
         two = p[i:i+2]
-        if two in ('ai','au'): out.append(('V',two)); i += 2; continue
+        if two in ('ai','au','eu'): out.append(('V',two)); i += 2; continue
         if two in ASP: out.append(('C',two)); i += 2; continue
         c = p[i]
         if c in LONG or c in SHORT: out.append(('V',c))

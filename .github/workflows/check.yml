@@ -1,15 +1,22 @@
-name: metre-check
+name: mula-gate
 on: [push, pull_request]
 jobs:
-  metre:
+  gate:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: {python-version: '3.12'}
-      - run: |
+      - run: pip install pyyaml
+      - name: Mūla gate (metre, Sanskrit letters, sandhi, hiatus; D-19)
+        run: python tools/check_mula.py $(ls mula/*/*.txt | grep -v '\.deva\.')
+      - name: Coverage and fillers (R7)
+        run: |
           set -e
-          for f in mula/*/*.txt; do
-            case "$f" in *.deva.txt) continue;; esac
-            echo "== $f"; python tools/anushtubh.py "$f"
+          for a in apparatus/*/*.yaml; do
+            d=$(basename $(dirname $a)); ch=$(basename $a .yaml)
+            code=$(python -c "import sys; sys.path.insert(0,'tools'); from draft_loop import DIRS; print({v:k for k,v in DIRS.items()}['$d'])")
+            python tools/check_apparatus.py $a source/$code/$ch.tsv
           done
+      - name: Registers parse
+        run: python -c "import yaml; [yaml.safe_load(open(f)) for f in ['register/terms.yaml','decisions/ratified.yaml','decisions/pending.yaml']]"

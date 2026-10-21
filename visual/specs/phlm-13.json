@@ -1,0 +1,15 @@
+{
+  "id": "phlm-13",
+  "book": "philemon",
+  "shloka": 13,
+  "ref": "PHILEMON 1:16  ·  ŚLOKA 13",
+  "title_deva": "भ्राता",
+  "title_iast": "bhrātā",
+  "gloss": "Not now as a servant, but above a servant, a brother beloved…",
+  "gloss_source": "PHILEMON 1:16 (KJV, PUBLIC DOMAIN)",
+  "theme": "B-ID: identity test — dāsa to bhrātṛ",
+  "scene_brief": "Monochrome. Two men on the steps of a ghat at night, one releasing the other's wrist from a broken chain; full moon; no deity imagery, no Christian symbols on Indic figures.",
+  "forbid": ["deity bodies combined with Christian symbols", "text painted by the image model"],
+  "background": null,
+  "label": "Text set from the repository · mūla draft, not yet reviewed"
+}

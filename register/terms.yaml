@@ -20,18 +20,18 @@
   source: תְּהוֹם (tehom)
   render: arṇava
   grade: partial
-  note: "Face of the deep" compressed to arṇave (on the deep). Restore pnei if reviewer rejects.
+  note: '"Face of the deep" compressed to arṇave (on the deep). Restore pnei if reviewer rejects.'
 - id: H7307
   source: רוּחַ (ruach)
   render: rūaħ (रू॑अह़्)
   grade: kept-as-sound
-  gender: feminine (follows Hebrew; ratified rule: loanwords keep source gender)
+  gender: 'feminine (follows Hebrew; ratified rule: loanwords keep source gender)'
   note: Wind, breath and spirit at once. Kept to preserve the ambiguity.
 - id: H7363
   source: מְרַחֶפֶת (merachefet)
   render: plavamānā (feminine, agreeing with rūakh)
   grade: partial
-  note: Hover, flutter (used of an eagle in Deut 32:11). Review 1 says plu suggests floating. Kept pending Sanskrit reviewer - plu is believed to cover birds hovering (Monier-Williams; not verified here).
+  note: 'Hover, flutter (used of an eagle in Deut 32:11). Review 1 says plu suggests floating. Kept pending Sanskrit reviewer - plu is believed to cover birds hovering (Monier-Williams; not verified here).'
 - id: H216
   source: אוֹר (or)
   render: jyotis
@@ -67,7 +67,7 @@
   source: πρὸς τὸν θεόν (pros ton theon)
   render: thĕŏs-pārśve
   grade: partial
-  note: "Towards/with God", relational. pārśva = side, nearness.
+  note: '"Towards/with God", relational. pārśva = side, nearness.'
 - id: G2222
   source: ζωή (zoe)
   render: jīvana
@@ -82,7 +82,7 @@
   source: ὃ γέγονεν (ho gegonen)
   render: attached to 1:3
   grade: n/a
-  note: Textual question. Modern critical editions often attach it to 1:4 ("what came to be in him was life"). Draft follows the 1:3 reading. Bhāṣya must state both.
+  note: 'Textual question. Modern critical editions often attach it to 1:4 ("what came to be in him was life"). Draft follows the 1:3 reading. Bhāṣya must state both.'
 - id: Gen1.1-John1.1-beginning
   source: בְּרֵאשִׁית / ἐν ἀρχῇ
   render: ādau (both)
@@ -94,3 +94,30 @@
   render: tu, eva, ca, vai, hi, tathā where marked
   grade: n/a
   note: Particles added for metre, not in source. To be listed per verse in the apparatus.
+# --- Philemon (draft 1, 20 Oct 2026). All PENDING RATIFICATION. Tier: 1 divine names/titles, 2 doctrinal, 3 ordinary.
+- {id: G2962, source: κύριος, tier: 1, render: svāmin, grade: partial, status: RATIFIED 21 Oct 2026 (D-15), note: 'Owner/master and Lord; pairs with dāsa as κύριος with δοῦλος; Dharmaśāstra svāmitva. Septuagint link to the Name in the bhāṣya.'}
+- {id: G5485, source: χάρις, tier: 2, render: kṛpā, grade: partial, status: PENDING, note: "Draft 4 of Philemon (was prasāda; alternative anugraha). One rendering across the corpus once ratified."}
+- {id: G1515, source: εἰρήνη, tier: 2, render: śānti, grade: partial, status: PENDING, note: "Hebrew background shalom."}
+- {id: G26, source: ἀγάπη, tier: 2, render: prema, grade: partial, status: PENDING}
+- {id: G4102, source: πίστις, tier: 2, render: śraddhā, grade: partial, status: PENDING, note: "Alternative viśvāsa (trust)."}
+- {id: G40, source: ἅγιος (pl., the saints), tier: 2, render: sant (sataḥ, satām), grade: partial, status: PENDING}
+- {id: G2842, source: κοινωνία, tier: 2, render: saṃvibhāga, grade: partial, status: PENDING}
+- {id: G1922, source: ἐπίγνωσις, tier: 2, render: jñāna, grade: partial, status: PENDING, note: "Alternative abhijñāna."}
+- {id: G4698, source: σπλάγχνον, tier: 2, render: hṛdaya, grade: partial, status: PENDING, note: "Literally inner parts."}
+- {id: G3954, source: παρρησία, tier: 2, render: pragalbhatā, grade: partial, status: PENDING}
+- {id: G1577, source: ἐκκλησία, tier: 2, render: sabhā, grade: partial, status: PENDING}
+- {id: G2098, source: εὐαγγέλιον, tier: 2, render: susandeśa, grade: equivalent, status: PENDING}
+- {id: G166, source: αἰώνιος, tier: 2, render: śāśvata, grade: partial, status: PENDING}
+- {id: G4561, source: σάρξ, tier: 2, render: deha, grade: partial, status: PENDING, note: "Alternative māṃsa (literal flesh)."}
+- {id: G5218, source: ὑπακοή, tier: 2, render: vaśyatā, grade: partial, status: PENDING}
+- {id: G4151, source: πνεῦμα, tier: 1, render: "ātman (human spirit, Phlm 25); Holy Spirit undecided", grade: partial, gender: n, status: PENDING, note: "Greek counterpart of rūaḥ; each book keeps its own source word."}
+- {id: G1401, source: δοῦλος, tier: 3, render: dāsa, grade: equivalent, status: PENDING}
+- {id: G1198, source: δέσμιος, tier: 3, render: bandin, grade: equivalent, status: PENDING}
+- {id: G80, source: ἀδελφός / ἀδελφή, tier: 3, render: bhrātṛ / bhaginī, grade: equivalent, status: PENDING}
+- {id: G4904, source: συνεργός, tier: 3, render: sahāyin, grade: partial, status: PENDING}
+- {id: G4961, source: συστρατιώτης, tier: 3, render: sahayodhin, grade: equivalent, status: PENDING}
+- {id: G4869, source: συναιχμάλωτος, tier: 3, render: sahabandin, grade: equivalent, status: PENDING}
+- {id: G2844, source: κοινωνός, tier: 3, render: sahabhāgin, grade: equivalent, status: PENDING}
+- {id: G5043, source: τέκνον, tier: 3, render: suta, grade: partial, status: PENDING}
+- {id: G4246, source: πρεσβύτης, tier: 3, render: vṛddha, grade: equivalent, status: PENDING, note: "Variant reading πρεσβευτής (ambassador) for the bhāṣya."}
+- {id: G3578, source: ξενία, tier: 3, render: ātithyagṛha, grade: equivalent, status: PENDING}

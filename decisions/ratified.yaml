@@ -1,0 +1,53 @@
+# Decisions ratified by Ashank. His wording is kept; the reading note says how the pipeline applies it.
+- id: D-14
+  date: 2026-10-21
+  ruling: "Depends if these spiritual concepts have no equivalent in Sanskrit which retain their meaning in entirety. Not ok with general thumb rule on blanket retention."
+  applied_as: A word is kept as sound only when no Sanskrit word retains its meaning in its entirety (register grade 'none'). Names stay kept. Each term is decided in the register, never by a blanket rule. The case-form question applies only to words that pass this test.
+- id: D-15
+  date: 2026-10-21
+  ruling: "OK, but what's the contextual meaning of that name. Prabhu can have 1000s of names within Sanatan culture and right fitment would be better."
+  applied_as: κύριος is translated. The Sanskrit word is chosen by its context (see the proposal for svāmin), not fixed as prabhu.
+- id: D-16
+  date: 2026-10-21
+  ruling: "Let us go with general wisdom for now."
+  applied_as: "Ἰησοῦς is scanned as two syllables. Under D-19 this is regular Sanskrit: the stem yesu (i+e -> ye by 6.1.77)."
+- id: D-17
+  date: 2026-10-21
+  ruling: OK
+  applied_as: "REVERSED by D-19 (21 Oct 2026): sandhi applies to every word, kept words included."
+- id: D-18
+  date: 2026-10-21
+  ruling: "OK, but stay authentic to Indo-Latin nirukti in such cases."
+  applied_as: Greek υ written u for now. Every transliteration choice records its etymology (nirukti) and its standard Latin transliteration in the loanword register.
+- id: P-ADAU
+  date: 2026-10-21
+  ruling: "OK, but stay true to phonetically similar name."
+  applied_as: ādau is used in both Genesis 1:1 and John 1:1.
+- id: D-04
+  date: 2026-10-21
+  ruling: "For now OK. Once the entire project is completed I would introduce a nested conversation structure to make easier meaning of it all."
+  applied_as: Three-part reading order. A nested dialogue frame is planned after completion.
+- id: D-11
+  date: 2026-10-21
+  ruling: "Yes, that matters a lot in giving original meaning."
+  applied_as: The §1.3 method items and templates B-PURVA, B-ID, B-GURU and B-TRI are binding.
+- id: D-12
+  date: 2026-10-21
+  ruling: "Yes"
+  applied_as: Any model's review is a finding, never a decision.
+- id: D-10
+  date: 2026-10-21
+  ruling: "We are doing complete open source."
+  applied_as: Text and data under CC BY-SA 4.0 (share-alike, compatible with the CC BY-SA MorphGNT data); code under MIT.
+- id: D-15a
+  date: 2026-10-21
+  ruling: "Yes, svamin is ratified."
+  applied_as: κύριος = svāmin; Philemon pādas 11, 16-17, 52, 63, 79 refitted.
+- id: D-19
+  date: 2026-10-21
+  ruling: "Sanskrit grammar is sacrosanct. Just because names are Greek doesn't mean Sanskrit vyākaraṇa rules may be compromised. That is defeating the purpose."
+  applied_as: >-
+    Every word of the mūla obeys Pāṇinian grammar. Names and kept terms are naturalised: they get a Sanskrit stem,
+    gender and declension (register/names.tsv) and full sandhi. Only Sanskrit letters appear in the mūla. The 1st-century
+    Koine / Tiberian pronunciation (R9) moves to the register, apparatus and audio. Enforced by tools/check_mula.py in CI.
+    Supersedes D-14b and reverses D-17.
