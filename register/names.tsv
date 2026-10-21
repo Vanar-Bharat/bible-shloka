@@ -1,0 +1,18 @@
+# Naturalised names and kept terms (D-19, ratified 21 Oct 2026). The mūla uses ONLY the stem column, declined by Sanskrit rules.
+# The pronunciation column (R9: 1st-c. Koine / Tiberian Hebrew) is for audio and the apparatus, never for the mūla.
+# rule: G-os = Greek -os/-as/-ēs masc. -> a-stem; G-ous = -ous -> u-stem; G-a = fem. -a/-ē -> ā-stem; G-ōn = -ōn -> a-stem; G-ma = neuter -ma -> n-stem.
+source	lemma	stem	gender	class	nom	rule	pronunciation	status
+grc	Παῦλος	paula	m	a	paulaḥ	G-os	páwlos	RATIFIED-RULE
+grc	Τιμόθεος	timotheya	m	a	timotheyaḥ	G-os (e+o glide, cf. Aśokan aṃtiyoka)	timótʰeos	RATIFIED-RULE
+grc	Χριστός	khrista	m	a	khristaḥ	G-os	kʰristós	RATIFIED-RULE
+grc	Ἰησοῦς	yesu	m	u	yesuḥ	G-ous (i+e -> ye, 6.1.77)	iēsûs	RATIFIED-RULE
+grc	Φιλήμων	philemona	m	a	philemonaḥ	G-ōn	pʰilɛ́mɔːn	RATIFIED-RULE
+grc	Ἀπφία	apphiyā	f	ā	apphiyā	G-a	apʰpʰía	RATIFIED-RULE
+grc	Ἄρχιππος	arkhippa	m	a	arkhippaḥ	G-os	árkʰippos	RATIFIED-RULE
+grc	Ὀνήσιμος	onesima	m	a	onesimaḥ	G-os	onɛ́simos	RATIFIED-RULE
+grc	Ἐπαφρᾶς	epaphra	m	a	epaphraḥ	G-as	epapʰrâs	RATIFIED-RULE
+grc	Μᾶρκος	mārka	m	a	mārkaḥ	G-os	mârkos	RATIFIED-RULE
+grc	Ἀρίσταρχος	aristarkha	m	a	aristarkhaḥ	G-os	arístarkʰos	RATIFIED-RULE
+grc	Δημᾶς	dema	m	a	demaḥ	G-as	dɛːmâs	RATIFIED-RULE
+grc	Λουκᾶς	lūka	m	a	lūkaḥ	G-as	luːkâs	RATIFIED-RULE
+grc	θεός	theya	m	a	theyaḥ	G-os, divine title kept as sound (rule 3); Sanskrit equivalent under D-14 test	tʰeós	PENDING

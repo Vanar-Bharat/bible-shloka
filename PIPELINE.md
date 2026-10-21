@@ -93,13 +93,13 @@ These build on the objective. They do not replace it.
 |---|---|---|
 | R1 | Accurate, rhythmic anuṣṭubh; poetic excellence is not the objective; metre checked against corpora (Rāmāyaṇa, Gītā, Durgā Saptaśatī) | §5 S4 metre check, §5 S4b calibration |
 | R2 | Maker-reviewer across different model vendors | §5 S3, S5, S7 |
-| R3 | Divine names and core untranslatables kept as sound | §4.3 loanword register |
+| R3 | Divine names and core untranslatables kept as sound, **naturalised** as Sanskrit stems and fully declined (D-19) | `register/names.tsv`, `tools/naturalise.py` |
 | R4 | Idol and polemic verses stand as written in the mūla; bhāṣya per passage: target, internal reform, reception history, Vedāntic response (arcāvatāra) | §5 S8, bhāṣya template B-POL |
 | R5 | The project lead's role begins after the machine passes: taste and ratification | §5 S10 |
 | R6 | Structural boilerplate (uvāca, colophons, frames, phalaśruti) derived from Indic scripture | §7 |
 | R7 | Lawyer's posture: faithful text, context-true commentary | Whole pipeline |
 | R8 | Source gender kept in the mūla (rūaḥ feminine, logos masculine), with all agreeing words following; Sanskrit equivalents and gender analysis in the bhāṣya | §4.3, §5 S4 agreement check |
-| R9 | Pronunciation: Tiberian Hebrew; 1st-century Koine Greek; nukta scheme (ח ह़, כ ख़); short ĕ/ŏ as ऎ/ऒ; stress marked with U+0951; the Name in a fixed form, read Adonai; a licensed native audio reference for every kept word | §4.3, §5 S2 |
+| R9 | Pronunciation: Tiberian Hebrew; 1st-century Koine Greek; the Name in a fixed form, read Adonai; a licensed native audio reference for every kept word. Since D-19 this lives in the register, apparatus and audio only; the mūla is written in Sanskrit letters | `register/names.tsv` pronunciation column |
 | R10 | Public access only: every source text and every reference used in the mūla or bhāṣya must be publicly accessible (public domain, open licence, or free to read). Material that is not publicly accessible is not used or pursued | §4.1, §6.5 |
 
 **Review-handling rule (PENDING, but already followed).** Reviewer output from any model is a finding, never a decision. The maker fixes only verifiable errors: grammar, metre and agreement. Any interpretive or terminological change is logged as PENDING RATIFICATION.
@@ -218,10 +218,11 @@ The unit of work is one **pericope**: a sense unit of roughly 3-12 verses. Ślok
 | Check | Rule source | Status |
 |---|---|---|
 | Metre: 8 syllables per pāda; syllables 5-6-7 must be L G G in odd pādas and L G L in even pādas; syllables 2-3 not both light; vipulā patterns reported as warnings | R1 | Exists: `tools/anushtubh.py` and CI |
-| Loanword spelling and stress match the register exactly | R3, R9 | To build |
+| Sanskrit letters only; no vowel hiatus inside a word; sandhi lint inside each pāda (a+a, i/u/ṛ + vowel, final m before consonant, -aḥ before voiced consonant) | D-19 | Exists: `tools/check_mula.py`, in CI |
+| Names use the register stem | R3, D-19 | Prompt contract (`prompts/maker.md`); automatic check to build |
 | Gender and number agreement: every adjective, participle and pronoun that agrees with a kept noun matches the gender in the register. OSHB marks some nouns as common gender (`b`): 15,327 tokens, including rûaḥ, nefesh, ʾereṣ, yad and ʿayin. For these the gender comes from the agreeing verb or adjective in the same verse (in Gen 1:2, *mĕraḥefet* is feminine), and the register records it per occurrence | R8 | To build (pilot errors: rūaḥ, tad/taṃ) |
-| Coverage: every source content word maps to a mūla token or carries an omission reason in the apparatus | R7 | To build |
-| Fillers: only allow-list particles, each one logged | R7 | To build |
+| Coverage: every source content word maps to a mūla token or carries an omission reason in the apparatus | R7 | Exists: `tools/check_apparatus.py`, in CI |
+| Fillers: only allow-list particles (`register/fillers.tsv`), each one logged | R7 | Exists: `tools/check_apparatus.py` |
 | Avoid-list: terms marked `avoid` in the register do not appear in the mūla (for example nirākāra for tohu, jīva for zoē) | R7, R8 | To build |
 | Sanskrit morphology: every inflected form is valid | Lesson from *agṛhṇata* | To build. Candidate analysers (Sanskrit Heritage Platform, vidyut/Ambuda) are **not yet evaluated** |
 | Polemic verses: verses tagged polemic carry the R4 bhāṣya template | R4 | To build |
@@ -235,8 +236,8 @@ The unit of work is one **pericope**: a sense unit of roughly 3-12 verses. Ślok
 ```
 # <Book ch:v-v> | draft N | maker: <engine> | reviewer: <engine>, <date>
 # Gen 1:1
-ādāv eva sasarjāsāv
-ĕlohīm dyāṃ bhuvaṃ tathā
+paulas tathā timotheyaḥ
+khristayesor hi bandy asau
 ```
 
 - One pāda per line, in IAST.
@@ -359,6 +360,14 @@ The frames are taken from Indic scripture. The exact formulas are to be drafted 
 
 ---
 
+## 10a. Running the whole Bible
+
+1. `tools/ingest.py` builds the source TSVs (S0); `tools/naturalise.py` proposes stems for all 3,380 names (`register/names.proposed.tsv`, all PENDING; the divine name is held for decision D-25).
+2. `tools/run_bible.py --maker VENDOR:MODEL --reviewer VENDOR:MODEL` drafts every chapter without a mūla, in drafting order (Paul, shortest first; other NT; OT). It calls `tools/draft_loop.py` per chapter.
+3. `draft_loop.py` splits a chapter into ~70-content-word chunks, sends the maker contract (`prompts/maker.md`), runs the gate on each reply and returns the exact failures to the maker (up to 4 rounds). A chunk that never passes stops the run. It refuses to run if maker and reviewer share a vendor (R2), logs every call to `audit/log.jsonl` and caps calls per run (M9).
+4. The reviewer contract (`prompts/reviewer.md`) yields findings only (D-12). Fixes follow the review-handling rule.
+5. Keys come from the Spine vault as environment variables. They never live in the repository.
+
 ## 11. Open decisions
 
 | ID | Decision | Blocks |
@@ -375,7 +384,13 @@ The frames are taken from Indic scripture. The exact formulas are to be drafted 
 | D-10 | RATIFIED 21 Oct 2026: fully open source; text CC BY-SA 4.0, code MIT (`LICENSE`) | — |
 | D-11 | Ratify the method items in §1.3 | Templates B-LAW, B-XREF, B-GAP |
 | D-12 | Ratify the review-handling rule | Formal status of S6 |
-| D-14 to D-18 | Raised by the Philemon draft: kept words in source case form; κύριος as prabhu; Ἰησοῦς scanned as two syllables; no sandhi at kept words; υ written u (details in `decisions/pending.yaml`) | Every New Testament book |
+| D-14 to D-19 | RATIFIED 21 Oct 2026 (`decisions/ratified.yaml`): per-term retention test; κύριος = svāmin; Ἰησοῦς = yesu; υ written u; **D-19 Sanskrit grammar is sacrosanct: names naturalised, sandhi everywhere** (reverses D-17, supersedes D-14b) | — |
+| D-20 | χάρις = kṛpā corpus-wide | Every NT book |
+| D-21 | θεός: Sanskrit equivalent or the stem theya | Every NT book |
+| D-22 | Hebrew naturalisation rules (elohīm, rūaḥ); needs the Hebrew reviewer | Genesis refit, all OT |
+| D-23 | Sandhi across pāda boundaries | Gate scope |
+| D-24 | πνεῦμα (human spirit) = ātman; the Holy Spirit separately | Every NT book |
+| D-25 | The divine name (H3068, H3069, H3050): fixed form (with D-06) | All OT books |
 
 ---
 

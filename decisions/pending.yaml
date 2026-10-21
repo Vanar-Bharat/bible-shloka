@@ -1,3 +1,12 @@
-# Ratified items have moved to decisions/ratified.yaml (21 Oct 2026). Open follow-ups below.
-- id: D-14b
-  proposal: Kept words (those passing the retention test) appear in the source's case form; John 1:1b becomes thĕŏn.
+# Open follow-ups. D-14b superseded by D-19 (names naturalised), 21 Oct 2026.
+- id: D-20
+  proposal: χάρις = kṛpā across the corpus (Philemon draft 4; was prasāda). Reason - fits v3 and v25 with "your" kept; kṛpā is the ordinary word for unearned favour.
+  rejected: prasāda (also "clarity, offering"), anugraha (longer, fits fewer pādas).
+- id: D-21
+  proposal: θεός = Sanskrit equivalent under the D-14 test, or the naturalised stem theya. Claude's view - theya until the register entry is graded, because īśvara/deva each carry senses the Greek lacks.
+- id: D-22
+  proposal: Hebrew naturalisation rules for the Genesis refit - אֱלֹהִים -> elohīm-a (a-stem, m.) or a Sanskrit equivalent under D-14; רוּחַ -> rūha (f. ā-stem rūhā?). Needs the Hebrew reviewer.
+- id: D-23
+  proposal: Sandhi between odd and even pādas follows the classical editions - applied inside a half-verse, optional at pāda end. The gate checks only within a pāda.
+- id: D-24
+  proposal: πνεῦμα of the human spirit = ātman (Phlm 25, "kṛpā va ātmanā saha"). The Holy Spirit (τὸ πνεῦμα τὸ ἅγιον) is decided separately in the register. Reason - "pneuma" breaks Sanskrit phonotactics (eu hiatus), so keeping it as sound is not possible under D-19.

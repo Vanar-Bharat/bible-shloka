@@ -96,7 +96,7 @@
   note: Particles added for metre, not in source. To be listed per verse in the apparatus.
 # --- Philemon (draft 1, 20 Oct 2026). All PENDING RATIFICATION. Tier: 1 divine names/titles, 2 doctrinal, 3 ordinary.
 - {id: G2962, source: κύριος, tier: 1, render: svāmin, grade: partial, status: RATIFIED 21 Oct 2026 (D-15), note: 'Owner/master and Lord; pairs with dāsa as κύριος with δοῦλος; Dharmaśāstra svāmitva. Septuagint link to the Name in the bhāṣya.'}
-- {id: G5485, source: χάρις, tier: 2, render: prasāda, grade: partial, status: PENDING, note: "Alternative anugraha."}
+- {id: G5485, source: χάρις, tier: 2, render: kṛpā, grade: partial, status: PENDING, note: "Draft 4 of Philemon (was prasāda; alternative anugraha). One rendering across the corpus once ratified."}
 - {id: G1515, source: εἰρήνη, tier: 2, render: śānti, grade: partial, status: PENDING, note: "Hebrew background shalom."}
 - {id: G26, source: ἀγάπη, tier: 2, render: prema, grade: partial, status: PENDING}
 - {id: G4102, source: πίστις, tier: 2, render: śraddhā, grade: partial, status: PENDING, note: "Alternative viśvāsa (trust)."}
@@ -110,7 +110,7 @@
 - {id: G166, source: αἰώνιος, tier: 2, render: śāśvata, grade: partial, status: PENDING}
 - {id: G4561, source: σάρξ, tier: 2, render: deha, grade: partial, status: PENDING, note: "Alternative māṃsa (literal flesh)."}
 - {id: G5218, source: ὑπακοή, tier: 2, render: vaśyatā, grade: partial, status: PENDING}
-- {id: G4151, source: πνεῦμα, tier: 1, render: kept as sound (pneumatŏs), grade: kept-as-sound, gender: n, status: PENDING, note: "Greek counterpart of rūaḥ; each book keeps its own source word."}
+- {id: G4151, source: πνεῦμα, tier: 1, render: "ātman (human spirit, Phlm 25); Holy Spirit undecided", grade: partial, gender: n, status: PENDING, note: "Greek counterpart of rūaḥ; each book keeps its own source word."}
 - {id: G1401, source: δοῦλος, tier: 3, render: dāsa, grade: equivalent, status: PENDING}
 - {id: G1198, source: δέσμιος, tier: 3, render: bandin, grade: equivalent, status: PENDING}
 - {id: G80, source: ἀδελφός / ἀδελφή, tier: 3, render: bhrātṛ / bhaginī, grade: equivalent, status: PENDING}

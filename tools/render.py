@@ -10,15 +10,17 @@ for row in csv.reader(open('register/loanwords.tsv', encoding='utf8'), delimiter
 def word(w):
     return '-'.join(LOAN.get(part) or transliterate(part, sanscript.IAST, sanscript.DEVANAGARI) for part in w.split('-'))
 def deva(p):
-    # Join a consonant-final Sanskrit word to the next Sanskrit word (शान्तिश्च), and an avagraha word to the one before (वोऽस्तु).
-    # Kept (loan) words always stay separate.
-    out = []
+    # Sandhi joins at the IAST level: a consonant-final word fuses with the next word (शान्तिश्च,
+    # थेयादस्मत्), and an avagraha word ('smi) fuses with the one before (कृतज्ञोऽस्मि).
+    # Legacy loan words (refit-pending pilots) stay separate.
+    groups = []
     for w in p.split():
-        d = word(w); loan = any(part in LOAN for part in w.split('-'))
-        if out and not loan and not out[-1][1] and (d.startswith('ऽ') or out[-1][0].endswith('्')):
-            out[-1] = (out[-1][0] + d, False); continue
-        out.append((d, loan))
-    return ' '.join(x for x, _ in out)
+        loan = any(part in LOAN for part in w.split('-'))
+        prev = groups[-1] if groups else None
+        if prev and not loan and not prev[1] and (w.startswith("'") or (prev[0][-1] not in 'aāiīuūṛṝeoḥṃ' )):
+            prev[0] += w; continue
+        groups.append([w, loan])
+    return ' '.join(word(g) for g, _ in groups)
 out, buf, n, ref = [], [], 0, ''
 header = []
 for line in open(sys.argv[1], encoding='utf8'):
@@ -27,6 +29,8 @@ for line in open(sys.argv[1], encoding='utf8'):
     if line.startswith('#'): header.append(line); continue
     if not line: continue
     buf.append((line, ref))
+    m = re.match(r'(.*?:)(\d+)-(\d+)$', ref)   # a pāda straddling two verses: later pādas belong to the second
+    if m: ref = m.group(1) + m.group(3)
     if len(buf) % 4 == 0:
         n += 1
         a, b, c, d = [deva(x[0]) for x in buf[-4:]]

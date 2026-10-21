@@ -1,32 +1,32 @@
-# Philemon 1:1-25 | draft 3 (κύριος = svāmin; corrections after review 1, ChatGPT, 21 Oct 2026) | maker: Claude (Anthropic) | reviewer: pending (non-Anthropic, R2)
-# Source: SBLGNT. Kept as sound: names, and terms with no full Sanskrit equivalent (D-14, ratified); their Greek case form is pending (D-14b). κύριος = svāmin (ratified). Iēsous scanned as 2 syllables (working rule, D-16). No sandhi at kept words (D-17, ratified).
+# Philemon 1:1-25 | draft 4 | maker: Claude (Anthropic) | reviewer 1: ChatGPT (OpenAI), 21 Oct 2026
+# Source: SBLGNT. Every word obeys Sanskrit vyākaraṇa (ratified 21 Oct 2026): names and kept terms take Sanskrit stems and endings, and sandhi applies throughout.
 # Phlm 1:1
-khristū iēsū hi bandī yaḥ
-paulŏs timŏthĕŏs ca saḥ
-bhrātā priyāya cāsmākam
-philēmŏni sahāyine
+paulas tathā timotheyaḥ
+khristayesor hi bandy asau
+philemonāya hṛdyāya
+bhrātā naś ca sahāyine
 # Phlm 1:2
-apphiā ca bhaginyai ca
-arkhippō sahayodhine
+apphiyāyai bhaginyai ca
+arkhippāya sayodhine
 asmākaṃ ca sabhāyai yā
 tava gehe hi vidyate
 # Phlm 1:3
-prasādo vo 'stu śāntiś ca
-asmākaṃ hi thĕū pituḥ
-tathaiva svāminaḥ iēsū
+kṛpā śāntiś ca yuṣmabhyam
+theyād asmatpitus tathā
+sahaiva svāmino yesoḥ
 # Phlm 1:3-4
-khristū ahaṃ thĕō mama
+khristāt theyāya me sadā
 kṛtajño 'smi smaraṃs tvāṃ hi
-sadā me prārthanāsu ca
+nijāsu prārthanāsu ca
 # Phlm 1:5
 śṛṇvaṃs te prema ca śraddhām
 tathā sarvān sataḥ prati
-yā prati svāminam iēsūn
+yā prati svāminaṃ yesum
 # Phlm 1:6
 yathā te saphalo bhavet
 śraddhāyāḥ saṃvibhāgaḥ sa
 jñāne sarvaśubhasya ca
-khristŏn prati yad asmāsu
+khristaṃ prati yad asmāsu
 # Phlm 1:7
 harṣaḥ prāpto mayā bahuḥ
 sāntvanā ca tava premṇā
@@ -34,16 +34,16 @@ hṛdayāni satāṃ yataḥ
 āśvastāni tvayā bhrātaḥ
 # Phlm 1:8
 ato bahvīṃ pragalbhatām
-khristō dhārayamāṇo 'pi
+khriste dhārayamāṇo 'pi
 samādeṣṭuṃ tavocitam
 # Phlm 1:9
 premṇā yāce 'dhikaṃ tvāṃ tu
-vṛddho 'haṃ paulŏs īdṛśaḥ
+vṛddho 'haṃ paula īdṛśaḥ
 idānīm api bandī san
 # Phlm 1:9-10
-khristū iēsū sutaṃ mama
+khristayesoḥ sutaṃ mama
 yāce tvāṃ yam ahaṃ bandhe
-ajījanam ŏnēsimŏn
+onesimam ajījanam
 # Phlm 1:11
 yaḥ purā te 'bhavad vyarthaḥ
 idānīṃ sārthakas tava
@@ -77,14 +77,14 @@ yadi te so 'parāddhavān
 ṛṇī vā tat samastaṃ ca
 mayi tal likhyatāṃ tvayā
 # Phlm 1:19
-ahaṃ paulŏs svahastena
+ahaṃ paulaḥ svahastena
 likhāmi dāsyate mayā
 vaktuṃ necchāmi yat tvaṃ me
 ātmānam api dhārayeḥ
 # Phlm 1:20
 tvattaḥ svāmini me lābhaḥ
 āṃ bhrātar hṛdayaṃ mama
-khristō āśvāsaya tvaṃ ca
+khrista āśvāsaya tvaṃ ca
 # Phlm 1:21
 pratīya vaśyatāṃ tava
 te likhāmi vijānan yat
@@ -97,11 +97,11 @@ sahaiva sajjaya tvaṃ ca
 yuṣmatprārthanayā dāsye
 yuṣmabhyaṃ punar āgataḥ
 # Phlm 1:23
-ĕpaphrās sahabandī me
-khristō iēsū namasyati
+epaphraḥ sahabandī me
+khristayesau namasyati
 # Phlm 1:24
-tvāṃ ca mārkŏs aristarkhŏs
-dēmās lūkās sahāyinaḥ
+mārkaś ca tvām aristarkhaḥ
+demo lūkaḥ sahāyinaḥ
 # Phlm 1:25
-prasādaḥ svāminaḥ iēsū
-khristū vaḥ pneumatŏs saha
+khristasya svāmino yesoḥ
+kṛpā va ātmanā saha

@@ -10,11 +10,11 @@
 - id: D-16
   date: 2026-10-21
   ruling: "Let us go with general wisdom for now."
-  applied_as: Ἰησοῦς is scanned as two syllables as the working rule, until the Greek reviewer rules.
+  applied_as: "Ἰησοῦς is scanned as two syllables. Under D-19 this is regular Sanskrit: the stem yesu (i+e -> ye by 6.1.77)."
 - id: D-17
   date: 2026-10-21
   ruling: OK
-  applied_as: No sandhi next to kept words.
+  applied_as: "REVERSED by D-19 (21 Oct 2026): sandhi applies to every word, kept words included."
 - id: D-18
   date: 2026-10-21
   ruling: "OK, but stay authentic to Indo-Latin nirukti in such cases."
@@ -43,3 +43,11 @@
   date: 2026-10-21
   ruling: "Yes, svamin is ratified."
   applied_as: κύριος = svāmin; Philemon pādas 11, 16-17, 52, 63, 79 refitted.
+- id: D-19
+  date: 2026-10-21
+  ruling: "Sanskrit grammar is sacrosanct. Just because names are Greek doesn't mean Sanskrit vyākaraṇa rules may be compromised. That is defeating the purpose."
+  applied_as: >-
+    Every word of the mūla obeys Pāṇinian grammar. Names and kept terms are naturalised: they get a Sanskrit stem,
+    gender and declension (register/names.tsv) and full sandhi. Only Sanskrit letters appear in the mūla. The 1st-century
+    Koine / Tiberian pronunciation (R9) moves to the register, apparatus and audio. Enforced by tools/check_mula.py in CI.
+    Supersedes D-14b and reverses D-17.

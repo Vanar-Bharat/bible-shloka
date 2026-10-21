@@ -1,26 +1,28 @@
-# Apparatus, Philemon 1 (draft 1). map: Greek lemma -> mūla word. fillers: particles added for metre (allow-list).
+# Apparatus, Philemon 1 (draft 4: names naturalised, D-19). map: Greek lemma -> mūla word. fillers: particles added for metre (allow-list).
 # added: words not in the Greek, with reason. omitted: Greek words not rendered, with reason. All PENDING review.
 Phlm.1.1:
-  map: {Παῦλος: paulŏs, δέσμιος: bandī, Χριστός: khristū, Ἰησοῦς: iēsū, Τιμόθεος: timŏthĕŏs, ὁ: saḥ, ἀδελφός: bhrātā, Φιλήμων: philēmŏni, ἀγαπητός: priyāya, συνεργός: sahāyine, ἡμεῖς: asmākam}
+  map: {Παῦλος: paulaḥ, δέσμιος: bandī, Χριστός: khrista-, Ἰησοῦς: yesu-, Τιμόθεος: timotheyaḥ, ὁ: saḥ, ἀδελφός: bhrātā, Φιλήμων: philemonāya, ἀγαπητός: hṛdyāya, συνεργός: sahāyine, ἐγώ: asmākam}
   fillers: [hi]
-  added: {yaḥ: relative clause carries "prisoner of Christ Jesus" before the name}
+  added: {asau: "this one", resumes Paul as subject of the apposition}
+  note: Draft 4. Names declined as Sanskrit stems (paula, timotheya, philemona); khristayesu is the compound for Χριστοῦ Ἰησοῦ. ἀγαπητῷ = hṛdya ("dear to the heart").
 Phlm.1.2:
-  map: {Ἀπφία: apphiā, ἀδελφή: bhaginyai, Ἄρχιππος: arkhippō, συστρατιώτης: sahayodhine, ἡμεῖς: asmākam, οἶκος: gehe, σύ: tava, ἐκκλησία: sabhāyai}
+  map: {Ἀπφία: apphiyāyai, ἀδελφή: bhaginyai, Ἄρχιππος: arkhippāya, συστρατιώτης: sayodhine, ἐγώ: asmākam, οἶκος: gehe, σύ: tava, ἐκκλησία: sabhāyai}
   fillers: [hi]
   added: {vidyate: "which is", supplies the verb implied by κατ’ οἶκόν σου}
 Phlm.1.3:
-  map: {χάρις: prasādaḥ, "σύ (ὑμῖν)": vaḥ, εἰρήνη: śāntiḥ, θεός: thĕū, πατήρ: pituḥ, ἡμεῖς: asmākam, κύριος: svāminaḥ, Ἰησοῦς: iēsū, Χριστός: khristū}
+  map: {χάρις: kṛpā, "σύ (ὑμῖν)": vaḥ, εἰρήνη: śāntiḥ, θεός: theyāt, πατήρ: pituḥ, ἐγώ: asmākam, κύριος: svāminaḥ, Ἰησοῦς: yesu-, Χριστός: khrista-}
   fillers: [hi]
-  added: {astu: optative "be" implied by the salutation, tathaiva: renders καί}
+  added: {tathā: renders καί}
+  note: Draft 4. χάρις = kṛpā (was prasāda), PENDING ratification; the verb "be" is left implied as in the Greek. θεοῦ = theyāt (ablative of source, a-stem of theos).
 Phlm.1.4:
-  map: {εὐχαριστέω: "kṛtajño 'smi", θεός: thĕō, ἐγώ: mama/me, πάντοτε: sadā, "μνεία ποιέω": smaran, σύ: tvām, προσευχή: prārthanāsu}
+  map: {εὐχαριστέω: "kṛtajño 'smi", θεός: theyāya, ἐγώ: mama/me, πάντοτε: sadā, "μνεία ποιέω": smaran, σύ: tvām, προσευχή: prārthanāsu}
   fillers: [hi, ca]
   note: Fixed after review 1. Finite verb (kṛtajño 'smi) for the main verb and a participle (smaran) for the Greek participle.
 Phlm.1.5:
-  map: {ἀκούω: śṛṇvan, σύ: te, ἀγάπη: prema, πίστις: śraddhām, ἔχω: yā (relative), πρός: prati, κύριος: svāminam, Ἰησοῦς: iēsūn, εἰς: prati, πᾶς: sarvān, ἅγιος: sataḥ}
+  map: {ἀκούω: śṛṇvan, σύ: te, ἀγάπη: prema, πίστις: śraddhām, "ὅς + ἔχω": "yā (relative)", πρός: prati, κύριος: svāminam, Ἰησοῦς: yesum, εἰς: prati, πᾶς: sarvān, ἅγιος: sataḥ}
   note: "Chiastic order kept: love and faith; toward all the saints (tathā); faith toward the Lord Jesus (yā). ἣν ἔχεις carried by the relative yā."
 Phlm.1.6:
-  map: {ὅπως: yathā, κοινωνία: saṃvibhāgaḥ, πίστις: śraddhāyāḥ, σύ: te, ἐνεργής: saphalaḥ, γίνομαι: bhavet, ἐπίγνωσις: jñāne, πᾶς: sarva-, ἀγαθός: śubha-, "ἐν ἡμῖν": asmāsu, "εἰς Χριστόν": "khristŏn prati"}
+  map: {ὅπως: yathā, κοινωνία: saṃvibhāgaḥ, πίστις: śraddhāyāḥ, σύ: te, ἐνεργής: saphalaḥ, γίνομαι: bhavet, ἐπίγνωσις: jñāne, πᾶς: sarva-, ἀγαθός: śubha-, "ἐν ἡμῖν (ἐγώ)": asmāsu, "εἰς Χριστόν (Χριστός)": "khristaṃ prati"}
   fillers: [ca]
   added: {sa: renders the article ἡ}
   note: ἐπίγνωσις could be abhijñāna (fuller knowledge); jñāna chosen for metre. PENDING.
@@ -28,15 +30,15 @@ Phlm.1.7:
   map: {χαρά: harṣaḥ, πολύς: bahuḥ, ἔχω: prāptaḥ, παράκλησις: sāntvanā, ἀγάπη: premṇā, σύ: tava, ὅτι: yataḥ, σπλάγχνον: hṛdayāni, ἅγιος: satām, ἀναπαύω: āśvastāni, "διά σοῦ": tvayā, ἀδελφός: bhrātaḥ}
   omitted: {γάρ: connective, sense carried by sequence}
 Phlm.1.8:
-  map: {διό: ataḥ, πολύς: bahvīm, "ἐν Χριστῷ": khristō, παρρησία: pragalbhatām, ἔχω: dhārayamāṇaḥ, ἐπιτάσσω: samādeṣṭum, σύ: tava, ἀνήκω: ucitam}
+  map: {διό: ataḥ, πολύς: bahvīm, "ἐν Χριστῷ (Χριστός)": khriste, παρρησία: pragalbhatām, ἔχω: dhārayamāṇaḥ, ἐπιτάσσω: samādeṣṭum, σύ: tava, ἀνήκω: ucitam}
   added: {api: concessive "though", implied by the participle}
 Phlm.1.9:
-  map: {ἀγάπη: premṇā, μᾶλλον: adhikam, παρακαλέω: yāce, τοιοῦτος: īdṛśaḥ, Παῦλος: paulŏs, πρεσβύτης: vṛddhaḥ, νυνί: idānīm, καί: api, δέσμιος: bandī, Χριστός: khristū, Ἰησοῦς: iēsū}
+  map: {ἀγάπη: premṇā, μᾶλλον: adhikam, παρακαλέω: yāce, τοιοῦτος: īdṛśaḥ, Παῦλος: paulaḥ, πρεσβύτης: vṛddhaḥ, νυνί: idānīm, καί: api, δέσμιος: bandī, "εἰμί (ὤν)": san, Χριστός: khrista-, Ἰησοῦς: yesu-}
   fillers: [tu]
   added: {aham: subject made explicit, san: renders ὤν}
   note: πρεσβύτης "old man"; some read πρεσβευτής "ambassador". Bhāṣya to state both.
 Phlm.1.10:
-  map: {παρακαλέω: yāce, σύ: tvām, ἐμός: mama, τέκνον: sutam, γεννάω: ajījanam, δεσμός: bandhe, Ὀνήσιμος: ŏnēsimŏn}
+  map: {παρακαλέω: yāce, ὅς: yam, σύ: tvām, ἐμός: mama, τέκνον: sutam, γεννάω: ajījanam, δεσμός: bandhe, Ὀνήσιμος: onesimam}
   note: περί ("concerning") rendered by the double accusative of yāc. "Chains" (plural) rendered collective singular bandhe.
 Phlm.1.11:
   map: {ποτέ: purā, σύ: te/tava, ἄχρηστος: vyarthaḥ, νυνί: idānīm, ἐγώ: mahyam, εὔχρηστος: sārthakaḥ}
@@ -44,52 +46,53 @@ Phlm.1.11:
 Phlm.1.12:
   map: {ὅς: yam, ἀναπέμπω: preṣaye, σύ: "tvām prati", ἐμός: mama, σπλάγχνον: hṛdayam}
   fillers: [tu]
-  omitted: {αὐτόν: resumptive pronoun, τοῦτ’ ἔστιν: "that is", both carried by apposition}
+  omitted: {"αὐτόν (αὐτός)": resumptive pronoun carried by apposition, "τοῦτ’ ἔστιν (οὗτος, εἰμί)": "\"that is\", carried by apposition"}
 Phlm.1.13:
-  map: {ὅς: yam, ἐγώ: me, βούλομαι: aiccham, "πρὸς ἐμαυτόν": me, κατέχω: rakṣitum, ἵνα: "(jussive)", "ὑπὲρ σοῦ": tvatsthāne, ἐγώ: mām, διακονέω: sevatām, δεσμός: bandhe, εὐαγγέλιον: susandeśasya}
+  map: {ὅς: yam, ἐγώ: me, βούλομαι: aiccham, "πρὸς ἐμαυτόν (ἐμαυτοῦ)": me, κατέχω: rakṣitum, ἵνα: "(jussive)", "ὑπὲρ σοῦ (σύ)": tvatsthāne, ἐγώ: mām, διακονέω: sevatām, δεσμός: bandhe, εὐαγγέλιον: susandeśasya}
   added: {asmin: renders the article τοῖς}
 Phlm.1.14:
   map: {χωρίς: vinā, σός: tava, γνώμη: sammatim, οὐδείς: "na … kiṃcana", θέλω: aiccham, ποιέω: kartum, "ἵνα μή": "yathā na", ἀνάγκη: balāt, ἀγαθός: śubham, σύ: te, ἀλλά: "api tu", ἑκούσιος: svecchikam, εἰμί: syāt}
   fillers: [tu]
   added: {tat: "that", referring to the good deed}
 Phlm.1.15:
-  map: {τάχα: kadācit, "διὰ τοῦτο": "ata eva", χωρίζω: "viyuktaḥ abhūt", "πρὸς ὥραν": kṣaṇam, ἵνα: yat, αἰώνιος: śāśvatam, αὐτός: tam, ἀπέχω: āpnuyāḥ}
+  map: {τάχα: kadācit, "διὰ τοῦτο (οὗτος)": "ata eva", χωρίζω: "viyuktaḥ abhūt", "πρὸς ὥραν": kṣaṇam, ἵνα: yat, αἰώνιος: śāśvatam, αὐτός: tam, ἀπέχω: āpnuyāḥ}
   added: {tvattaḥ: "from you", implied}
 Phlm.1.16:
-  map: {οὐκέτι: "na punaḥ", "ὡς δοῦλον": dāsavat, ὑπέρ: param, δοῦλος: dāsāt, ἀδελφός: bhrātaram, ἀγαπητός: priyam, μάλιστα: viśeṣataḥ, ἐγώ: mahyam, "πόσῳ μᾶλλον": adhikam, σύ: tubhyam, σάρξ: dehe, κύριος: svāmini}
+  map: {οὐκέτι: "na punaḥ", "ὡς δοῦλον": dāsavat, ὑπέρ: param, δοῦλος: dāsāt, ἀδελφός: bhrātaram, ἀγαπητός: priyam, μάλιστα: viśeṣataḥ, ἐγώ: mahyam, "πόσῳ μᾶλλον (πόσος)": adhikam, σύ: tubhyam, σάρξ: dehe, κύριος: svāmini}
   omitted: {"καὶ … καί": "rendered by a single ca"}
   note: σάρξ rendered deha ("body"), not māṃsa; PENDING.
 Phlm.1.17:
-  map: {εἰ: yadi, οὖν: ataḥ, ἐγώ: mām, ἔχω: manyase, κοινωνός: sahabhāginam, προσλαμβάνω: gṛhāṇa, αὐτός: tam, "ὡς ἐμέ": "yathā mām"}
+  map: {εἰ: yadi, οὖν: ataḥ, ἐγώ: mām, ἔχω: manyase, κοινωνός: sahabhāginam, προσλαμβάνομαι: gṛhāṇa, αὐτός: tam, "ὡς ἐμέ": "yathā mām"}
   fillers: [tu, hi, tu]
   added: {te: "your (partner)"}
 Phlm.1.18:
-  map: {εἰ: yadi, τις: sarvam, ἀδικέω: aparāddhavān, σύ: te, ἤ: vā, ὀφείλω: ṛṇī, οὗτος: "tat samastam", ἐγώ: mayi, ἐλλογάω: likhyatām}
+  map: {εἰ: yadi, τις: sarvam, ἀδικέω: aparāddhavān, σύ: te, ἤ: vā, ὀφείλω: ṛṇī, οὗτος: "tat samastam", ἐγώ: mayi, ἐλλογέω: likhyatām}
   fillers: [ca]
   added: {tvayā: agent of the passive}
   note: Fixed after review 1. Aorist rendered as past (aparāddhavān); "tat samastam" covers both the wrong and the debt.
 Phlm.1.19:
-  map: {ἐγώ: aham, Παῦλος: paulŏs, γράφω: likhāmi, ἐμός: sva-, χείρ: hastena, ἀποτίνω: "dāsyate mayā", "ἵνα μὴ λέγω": "vaktuṃ na icchāmi", σύ: tvam, ὅτι: yat, σεαυτόν: ātmānam, καί: api, προσοφείλω: dhārayeḥ}
+  map: {ἐγώ: aham, Παῦλος: paulaḥ, γράφω: likhāmi, ἐμός: sva-, χείρ: hastena, ἀποτίνω: "dāsyate mayā", "ἵνα μή λέγω": "vaktuṃ na icchāmi", σύ: tvam, ὅτι: yat, σεαυτοῦ: ātmānam, καί: api, προσοφείλω: dhārayeḥ}
   note: Fixed after review 1. ἀποτίσω is rendered "it will be paid by me" (dāsyate mayā). προσοφείλεις (indicative) rendered optative dhārayeḥ for metre. Both for the Sanskrit reviewer.
 Phlm.1.20:
-  map: {ναί: āṃ, ἀδελφός: bhrātaḥ, ἐγώ: me, σύ: tvattaḥ, ὀνίνημι: lābhaḥ, "ἐν κυρίῳ": svāmini, ἀναπαύω: āśvāsaya, ἐγώ: mama, σπλάγχνον: hṛdayam, "ἐν Χριστῷ": khristō}
+  map: {ναί: āṃ, ἀδελφός: bhrātaḥ, ἐγώ: me, σύ: tvattaḥ, ὀνίνημι: lābhaḥ, "ἐν κυρίῳ (κύριος)": svāmini, ἀναπαύω: āśvāsaya, ἐγώ: mama, σπλάγχνον: hṛdayam, "ἐν Χριστῷ (Χριστός)": khriste}
   fillers: [ca]
   note: The two clauses are reordered across pādas.
 Phlm.1.21:
-  map: {πείθω: pratīya, ὑπακοή: vaśyatām, σύ: tava/te, γράφω: likhāmi, οἶδα: vijānan, ὅτι: yat, ὑπέρ: "tato 'dhikam", ὅς: yat, λέγω: vadāmi, ποιέω: kariṣyasi}
+  map: {πείθω: pratīya, ὑπακοή: vaśyatām, σύ: tava/te, γράφω: likhāmi, "εἰδώς (ὁράω)": vijānan, ὅτι: yat, ὑπέρ: "tato 'dhikam", ὅς: yat, λέγω: vadāmi, ποιέω: kariṣyasi, "καί (even)": eva}
   added: {etat: object made explicit}
   note: καί ("even") carried by eva. Aorist ἔγραψα rendered present (epistolary).
 Phlm.1.22:
-  map: {ἅμα: sahaiva, καί: "tathā / ca", ἑτοιμάζω: sajjaya, ἐγώ: mama, ξενία: ātithyagṛham, ἐλπίζω: āśāse, γάρ: yataḥ, διά: "(instrumental)", προσευχή: prārthanayā, ὑμεῖς: "yuṣmat- / yuṣmabhyam", χαρίζομαι: dāsye}
+  map: {ἅμα: sahaiva, καί: "tathā / ca", ἑτοιμάζω: sajjaya, ἐγώ: mama, ξενία: ātithyagṛham, ἐλπίζω: āśāse, γάρ: yataḥ, διά: "(instrumental)", προσευχή: prārthanayā, σύ: "yuṣmat- / yuṣmabhyam", χαρίζομαι: dāsye}
   fillers: [khalu]
   added: {punar āgataḥ: "having come back", the sense of "restored to you"}
   note: Plural προσευχῶν rendered singular in compound.
 Phlm.1.23:
-  map: {ἀσπάζομαι: namasyati, σύ: "tvām (P77)", Ἐπαφρᾶς: ĕpaphrās, συναιχμάλωτος: sahabandī, ἐγώ: me, "ἐν Χριστῷ": khristō, Ἰησοῦς: iēsū}
+  map: {ἀσπάζομαι: namasyati, σύ: "tvām (P77)", Ἐπαφρᾶς: epaphraḥ, συναιχμάλωτος: sahabandī, ἐγώ: me, "ἐν Χριστῷ (Χριστός)": khriste, Ἰησοῦς: yesu-}
 Phlm.1.24:
-  map: {Μᾶρκος: mārkŏs, Ἀρίσταρχος: aristarkhŏs, Δημᾶς: dēmās, Λουκᾶς: lūkās, συνεργός: sahāyinaḥ}
-  omitted: {μου: "my (fellow workers); the pāda carries tvām, the object of the greeting"}
+  map: {Μᾶρκος: mārkaḥ, Ἀρίσταρχος: aristarkhaḥ, Δημᾶς: demaḥ, Λουκᾶς: lūkaḥ, συνεργός: sahāyinaḥ}
+  omitted: {"μου (ἐγώ)": "my (fellow workers); the pāda carries tvām, the object of the greeting"}
   added: {ca: "also", for the greeting implied from v23}
 Phlm.1.25:
-  map: {χάρις: prasādaḥ, κύριος: svāminaḥ, Ἰησοῦς: iēsū, Χριστός: khristū, μετά: saha, πνεῦμα: pneumatŏs, ὑμεῖς: vaḥ}
+  map: {χάρις: kṛpā, κύριος: svāminaḥ, Ἰησοῦς: yesoḥ, Χριστός: khristasya, μετά: saha, πνεῦμα: ātmanā, σύ: "vaḥ (va before ā)"}
+  note: Draft 4. "your" (ὑμῶν) restored as vaḥ; πνεῦμα = ātman, instrumental with saha (review 1, finding 6). The human spirit has a full Sanskrit equivalent (D-14 test), and "pneuma" cannot be written in Sanskrit without hiatus inside the word (D-19). PENDING D-24.
   variant: SBLGNT has no "Amen"; many manuscripts add ἀμήν. Not in the mūla; apparatus only.
