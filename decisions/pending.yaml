@@ -10,3 +10,11 @@
   proposal: Sandhi between odd and even pādas follows the classical editions - applied inside a half-verse, optional at pāda end. The gate checks only within a pāda.
 - id: D-24
   proposal: πνεῦμα of the human spirit = ātman (Phlm 25, "kṛpā va ātmanā saha"). The Holy Spirit (τὸ πνεῦμα τὸ ἅγιον) is decided separately in the register. Reason - "pneuma" breaks Sanskrit phonotactics (eu hiatus), so keeping it as sound is not possible under D-19.
+- id: D-26
+  proposal: Philemon v25 renders neuter πνεῦμα with masculine ātman, against the source-gender ruling. Candidate neuter cetas ("kṛpā vaś cetasā saha", metre passes), graded partial.
+- id: D-27
+  proposal: Pronunciation values (Tiberian/Koine short vowels, stress, nukta) live in the register and audio, not the mūla, as a consequence of D-19. Needs confirmation.
+- id: D-28
+  proposal: Placement of Acts, Hebrews, the general letters and Revelation among the rings (referred by / written about / guided by).
+- id: D-29
+  proposal: Rename the code engine from "grantha-core" (now the name of the core granthas, Paul's letters) to babel-engine.

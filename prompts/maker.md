@@ -15,7 +15,7 @@ The mūla is a faithful translation, not a commentary. Interpretation belongs to
 4. **Metre.** Each pāda has 8 syllables. Syllables 5-6-7 are light-heavy-heavy in odd pādas and
    light-heavy-light in even pādas. Syllables 2-3 are not both light. Ślokas are whole (4 pādas).
 5. **Gender from the source (R8).** Agreeing words follow the gender in the source morphology column.
-6. **Register first.** Use the TERMS renderings exactly. A term marked `avoid` never appears.
+6. **Register first.** Use the TERMS renderings. Words under `watch` may import an Indic sense: use one only where the verse itself calls for it, and say why in the apparatus note.
    If a doctrinal word has no entry, use your best word and list it under `new_terms` for review.
 7. **Fillers.** Only these particles may be added for metre, and each one is logged: {FILLERS}.
 8. **Coverage.** Every content word of every verse appears in that verse's `map` under its source

@@ -175,7 +175,7 @@ Each entry has these fields:
   grade: equivalent | partial | none | kept-as-sound
   gender: m | f | n         # from source morphology, never from the drafter (R8)
   register_b: "Vedantic bridge, graded; for the bhāṣya only"
-  avoid: [nirākāra]         # Sanskrit words that would import a Vedāntic sense into the mūla
+  watch: [nirākāra]         # words that may import an Indic sense; reviewer checks the use in context (never a block)
   status: RATIFIED | PENDING | OPEN
   owner: project | analyst:<name> | school:<name> | reviewer:<vendor>
   evidence: "source or 'could not verify'"
@@ -223,7 +223,7 @@ The unit of work is one **pericope**: a sense unit of roughly 3-12 verses. Ślok
 | Gender and number agreement: every adjective, participle and pronoun that agrees with a kept noun matches the gender in the register. OSHB marks some nouns as common gender (`b`): 15,327 tokens, including rûaḥ, nefesh, ʾereṣ, yad and ʿayin. For these the gender comes from the agreeing verb or adjective in the same verse (in Gen 1:2, *mĕraḥefet* is feminine), and the register records it per occurrence | R8 | To build (pilot errors: rūaḥ, tad/taṃ) |
 | Coverage: every source content word maps to a mūla token or carries an omission reason in the apparatus | R7 | Exists: `tools/check_apparatus.py`, in CI |
 | Fillers: only allow-list particles (`register/fillers.tsv`), each one logged | R7 | Exists: `tools/check_apparatus.py` |
-| Avoid-list: terms marked `avoid` in the register do not appear in the mūla (for example nirākāra for tohu, jīva for zoē) | R7, R8 | To build |
+| Watch-list: words noted under `watch` in the register (for example nirākāra for tohu, jīva for zoē) are flagged to the reviewer, who judges each use in its verse. Never a blocking gate: the text itself may show that such a reading is the right one | R7 | Reviewer prompt |
 | Sanskrit morphology: every inflected form is valid | Lesson from *agṛhṇata* | To build. Candidate analysers (Sanskrit Heritage Platform, vidyut/Ambuda) are **not yet evaluated** |
 | Polemic verses: verses tagged polemic carry the R4 bhāṣya template | R4 | To build |
 
