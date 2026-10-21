@@ -1,15 +1,6 @@
-# Decisions raised by the Philemon draft (20 Oct 2026). Proposed by the maker; nothing here is ratified.
-- id: D-14
-  proposal: Kept words appear in the case form the source text uses (Χριστοῦ = khristū, Χριστῷ = khristō, Ἰησοῦν = iēsūn), following rule 3/4 ("exactly how it sounds natively"). They take no Sanskrit endings.
-  rejected: [nominative form for every occurrence (loses the source sound, and Sanskrit then cannot show the case); Sanskrit endings on Greek stems (changes the sound)]
-  affects: John pilot (thĕŏs-pārśve would become the accusative form), every book
-- id: D-15
-  proposal: κύριος is rendered prabhu (translated). Only names and core untranslatables are kept as sound.
-  rejected: [kept as sound kurios (title used of human masters too; heavy loanword load; two light syllables block the metre beside Iēsous)]
-- id: D-16
-  proposal: Ἰησοῦς is written iēsū(s) (three vowels, Koine spelling) but scanned as two syllables (synizesis i̯ē) for metre. The Greek reviewer is to confirm or reject. If rejected, every Jesus line must be refitted.
-  rejected: [three-syllable scansion (light first syllable; "Christ Jesus" then cannot stand inside one pāda)]
-- id: D-17
-  proposal: No vowel sandhi across a kept word; hiatus is allowed next to kept words (khristū ahaṃ).
-- id: D-18
-  proposal: Koine υ ([y]) is written u, pending the Greek reviewer; εὐ/αὐ are diphthongs (pneu-, pau-).
+# Ratified items have moved to decisions/ratified.yaml (21 Oct 2026). Open follow-ups below.
+- id: D-15a
+  proposal: Render κύριος by context as svāmin (owner/master; pairs with dāsa exactly as κύριος pairs with δοῦλος, and is the Dharmaśāstra term of ownership; also a reverent address for God). Philemon pādas 11, 16, 52, 63, 79 to be refitted on ratification.
+  rejected: [prabhu (generic), īśvara (Vedāntic sovereign Lord, too technical), bhagavān (sectarian divine epithet), nātha (protector; Nātha-sect overtone)]
+- id: D-14b
+  proposal: Kept words (those passing the retention test) appear in the source's case form; John 1:1b becomes thĕŏn.

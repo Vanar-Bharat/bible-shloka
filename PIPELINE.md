@@ -372,7 +372,7 @@ The frames are taken from Indic scripture. The exact formulas are to be drafted 
 | D-07 | Licensed lexicon for glosses | S0, S7 |
 | D-08 | Licensed Septuagint for cross-references | §6.7 |
 | D-09 | Phalaśruti: use or not | Colophons |
-| D-10 | Licence for this rendering (compatible with CC BY 4.0 and the CC BY-SA parse data) | Publication |
+| D-10 | RATIFIED 21 Oct 2026: fully open source; text CC BY-SA 4.0, code MIT (`LICENSE`) | — |
 | D-11 | Ratify the method items in §1.3 | Templates B-LAW, B-XREF, B-GAP |
 | D-12 | Ratify the review-handling rule | Formal status of S6 |
 | D-14 to D-18 | Raised by the Philemon draft: kept words in source case form; κύριος as prabhu; Ἰησοῦς scanned as two syllables; no sandhi at kept words; υ written u (details in `decisions/pending.yaml`) | Every New Testament book |
