@@ -1,5 +1,5 @@
-# Philemon 1:1-25 | draft 1 | maker: Claude (Anthropic) | reviewer: pending (non-Anthropic, R2)
-# Source: SBLGNT. Kept words in their source case form (D-14), kyrios rendered prabhu (D-15), Iēsous scanned as 2 syllables (D-16), no sandhi at kept words (D-17). All PENDING.
+# Philemon 1:1-25 | draft 2 (κύριος = svāmin, ratified 21 Oct 2026) | maker: Claude (Anthropic) | reviewer: pending (non-Anthropic, R2)
+# Source: SBLGNT. Kept words in their source case form (D-14), kyrios rendered svāmin (D-15, ratified), Iēsous scanned as 2 syllables (D-16), no sandhi at kept words (D-17). All PENDING.
 # Phlm 1:1
 khristū iēsū hi bandī yaḥ
 paulŏs timŏthĕŏs ca saḥ
@@ -13,15 +13,15 @@ tava gehe hi vidyate
 # Phlm 1:3
 prasādo vo 'stu śāntiś ca
 asmākaṃ hi thĕū pituḥ
-tathaiva ca prabhor iēsū
+tathaiva svāminaḥ iēsū
 # Phlm 1:3-4
 khristū ahaṃ thĕō mama
 kṛtajñaḥ san smarāmi tvām
 sadā me prārthanāsu ca
 # Phlm 1:5
 śṛṇvaṃs te prema ca śraddhām
-prabhum iēsūn prati sthitām
-sataḥ prati ca sarvān vai
+tathā sarvān sataḥ prati
+yā prati svāminam iēsūn
 # Phlm 1:6
 yathā te saphalo bhavet
 śraddhāyāḥ saṃvibhāgaḥ sa
@@ -67,7 +67,7 @@ yat taṃ śāśvatam āpnuyāḥ
 dāsavan na punar dāsāt
 paraṃ tu bhrātaraṃ priyam
 mahyaṃ viśeṣatas tubhyam
-dehe ca sutarāṃ prabhau
+dehe svāmini cādhikam
 # Phlm 1:17
 yady ato manyase tvaṃ tu
 māṃ hi te sahabhāginam
@@ -82,7 +82,7 @@ likhāmy ahaṃ dadāni ca
 vaktuṃ necchāmi yat tvaṃ me
 ātmānam api dhārayeḥ
 # Phlm 1:20
-prabhau tvatto 'stu me lābhaḥ
+tvattaḥ svāmini me lābhaḥ
 ām bhrātar hṛdayaṃ mama
 khristō āśvāsaya tvaṃ ca
 # Phlm 1:21
@@ -103,5 +103,5 @@ khristō iēsū namo 'stu te
 me ca mārkŏs aristarkhŏs
 dēmās lūkās sahāyinaḥ
 # Phlm 1:25
-prasādo 'stu prabhor iēsū
+prasādaḥ svāminaḥ iēsū
 khristū vaḥ pneumatŏs saha

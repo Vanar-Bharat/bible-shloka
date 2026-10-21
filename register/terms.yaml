@@ -95,7 +95,7 @@
   grade: n/a
   note: Particles added for metre, not in source. To be listed per verse in the apparatus.
 # --- Philemon (draft 1, 20 Oct 2026). All PENDING RATIFICATION. Tier: 1 divine names/titles, 2 doctrinal, 3 ordinary.
-- {id: G2962, source: κύριος, tier: 1, render: prabhu, grade: partial, status: PENDING (D-15), note: "Title, translated rather than kept as sound; used of God, Jesus and human masters. The Septuagint link to the Name goes in the bhāṣya."}
+- {id: G2962, source: κύριος, tier: 1, render: svāmin, grade: partial, status: RATIFIED 21 Oct 2026 (D-15), note: 'Owner/master and Lord; pairs with dāsa as κύριος with δοῦλος; Dharmaśāstra svāmitva. Septuagint link to the Name in the bhāṣya.'}
 - {id: G5485, source: χάρις, tier: 2, render: prasāda, grade: partial, status: PENDING, note: "Alternative anugraha."}
 - {id: G1515, source: εἰρήνη, tier: 2, render: śānti, grade: partial, status: PENDING, note: "Hebrew background shalom."}
 - {id: G26, source: ἀγάπη, tier: 2, render: prema, grade: partial, status: PENDING}
