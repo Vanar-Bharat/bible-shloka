@@ -5,6 +5,7 @@ Usage: check_apparatus.py APPARATUS.yaml SOURCE.tsv
 Coverage: every content lemma of every source verse is a key in that verse's map (keys may be a
 lemma or a quoted phrase containing it) or in omitted:. Fillers: every logged filler is on the allow-list.
 """
+import sys as _s; _s.stdout.reconfigure(encoding='utf-8')  # Windows consoles default to cp1252
 import sys, os, csv, yaml, collections
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from budget import content

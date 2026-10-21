@@ -23,3 +23,18 @@ Sanskrit anuṣṭubh rendering of the Bible from the Hebrew/Aramaic and Greek o
 - Ratification of register decisions.
 
 See SPEC.md and LICENSES.md.
+
+## Run it on your own machine
+
+Everything runs locally; no cloud workspace is needed.
+
+- Windows: `powershell -ExecutionPolicy Bypass -File tools\setup.ps1`
+- Ubuntu (Spine), WSL2, macOS: `bash tools/setup.sh`
+
+Setup fetches the pinned Hebrew and Greek sources, builds `build/src/` for all 66 books and proposes name stems. Then:
+
+```
+python tools/run_bible.py --src build/src --maker VENDOR:MODEL --reviewer VENDOR:MODEL [--dry-run] [--limit N]
+```
+
+Vendors: `anthropic`, `openai`, `gemini`, `ollama` (local). Maker and reviewer must be different vendors (R2). Keys go in `~/.bible-shloka/keys.env` (outside the repository), one `NAME=value` per line: `ANTHROPIC_API_KEY`, `OPENAI_API_KEY`, `GEMINI_API_KEY`. Every call is logged to `audit/log.jsonl`.

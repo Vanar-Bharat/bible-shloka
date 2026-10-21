@@ -14,6 +14,7 @@ vowel hiatus inside the word is broken by a glide (e/i + V -> ey/iy, o/u + V -> 
 Hebrew rules: pointed consonants and vowels to Sanskrit letters (ח->h, ע and א silent, צ->ts,
 ט->ṭ, ק->k, שׁ->ś, שׂ->s, ז->j); masculine names -> a-stem, feminine -> ā-stem; vocal shewa -> a.
 """
+import sys as _s; _s.stdout.reconfigure(encoding='utf-8')  # Windows consoles default to cp1252
 import csv, glob, os, re, sys, unicodedata, collections
 
 GR = {'α':'a','β':'b','γ':'g','δ':'d','ε':'e','ζ':'j','η':'e','θ':'th','ι':'i','κ':'k','λ':'l','μ':'m','ν':'n',

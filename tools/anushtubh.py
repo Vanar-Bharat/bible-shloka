@@ -10,6 +10,7 @@ pada is free (anceps).
 Usage: anushtubh.py FILE  (one pada per line; '|' or blank lines ignored;
 lines starting with # are comments)
 """
+import sys as _s; _s.stdout.reconfigure(encoding='utf-8')  # Windows consoles default to cp1252
 import re, sys
 LONG = {'ā','ī','ū','ṝ','e','o','ē','ō','ai','au','eu'}  # ē ō: long e/o in loanwords; eu: Greek diphthong
 SHORT = {'a','i','u','ṛ','ḷ','ĕ','ŏ'}  # ĕ ŏ: short e/o in Hebrew/Greek loanwords

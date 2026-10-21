@@ -13,6 +13,7 @@
 5. Fillers: particles listed in register/fillers.tsv only (warning if a filler is not logged in the apparatus).
 Exit 1 on any error. Usage: check_mula.py FILE [FILE...]
 """
+import sys as _s; _s.stdout.reconfigure(encoding='utf-8')  # Windows consoles default to cp1252
 import re, sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import anushtubh as A

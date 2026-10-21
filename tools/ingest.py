@@ -8,6 +8,7 @@ lang: hbo (Hebrew), arc (Aramaic), grc (Greek). gender m/f/c/n or '' ; number s/
 One row per word; Hebrew prefixes/suffixes stay inside the word (segments split by '/').
 Prints per-book word counts so they can be compared with the upstream totals.
 """
+import sys as _s; _s.stdout.reconfigure(encoding='utf-8')  # Windows consoles default to cp1252
 import os, re, sys, glob, collections
 
 OT = ['Gen','Exod','Lev','Num','Deut','Josh','Judg','Ruth','1Sam','2Sam','1Kgs','2Kgs','1Chr','2Chr',

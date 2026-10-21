@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Render an IAST mula file to Devanagari shlokas (two padas per line, danda marks).
 Loanwords (register/loanwords.tsv) use fixed spellings with nukta and stress sign (U+0951)."""
+import sys as _s; _s.stdout.reconfigure(encoding='utf-8')  # Windows consoles default to cp1252
 import sys, re, csv
 from indic_transliteration import sanscript
 from indic_transliteration.sanscript import transliterate

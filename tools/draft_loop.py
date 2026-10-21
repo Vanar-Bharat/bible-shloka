@@ -4,8 +4,9 @@
 Usage:
   draft_loop.py BOOK CH --src SOURCE_DIR --maker VENDOR:MODEL --reviewer VENDOR:MODEL [--dry-run]
                 [--max-rounds 4] [--chunk-words 70] [--max-calls 40]
-  VENDOR is anthropic | openai | gemini. Keys come from the environment (ANTHROPIC_API_KEY,
-  OPENAI_API_KEY, GEMINI_API_KEY), loaded from the Spine vault by the caller; never from files here.
+  VENDOR is anthropic | openai | gemini | ollama (local, OLLAMA_HOST, default http://localhost:11434).
+  Keys come from the environment (ANTHROPIC_API_KEY, OPENAI_API_KEY, GEMINI_API_KEY) or from
+  --env-file (default: ~/.bible-shloka/keys.env, outside the repository). Never commit keys.
 
 What it guarantees (the key criteria, in code):
   * R2: maker and reviewer vendors must differ, or it refuses to run.
@@ -19,6 +20,7 @@ Output: mula/<dir>/<ch>.txt (+ .deva.txt), apparatus/<dir>/<ch>.yaml, review/<di
         build/failed/ and the run stops, so a human sees it; nothing failing is ever committed.
 --dry-run writes the prompts to build/prompts/ and calls nothing.
 """
+import sys as _s; _s.stdout.reconfigure(encoding='utf-8')  # Windows consoles default to cp1252
 import argparse, csv, json, os, re, sys, time, urllib.request, yaml, collections, subprocess
 HERE = os.path.dirname(os.path.abspath(__file__)); ROOT = os.path.join(HERE, '..')
 sys.path.insert(0, HERE)
@@ -55,7 +57,21 @@ def call(engine, system, user):
                  {'systemInstruction': {'parts': [{'text': system}]}, 'contents': [{'role': 'user', 'parts': [{'text': user}]}]},
                  {'x-goog-api-key': os.environ['GEMINI_API_KEY']})
         return ''.join(p.get('text', '') for p in j['candidates'][0]['content']['parts'])
+    if vendor == 'ollama':
+        host = os.environ.get('OLLAMA_HOST', 'http://localhost:11434').rstrip('/')
+        if not host.startswith('http'): host = 'http://' + host
+        j = post(host + '/api/chat', {'model': model, 'stream': False, 'format': 'json',
+                 'messages': [{'role': 'system', 'content': system}, {'role': 'user', 'content': user}]}, {})
+        return j['message']['content']
     raise SystemExit(f'unknown vendor {vendor}')
+
+def load_env(path):
+    path = os.path.expanduser(path)
+    if not os.path.exists(path): return
+    for l in open(path, encoding='utf8'):
+        l = l.strip()
+        if l and not l.startswith('#') and '=' in l:
+            k, v = l.split('=', 1); os.environ.setdefault(k.strip(), v.strip().strip('"'))
 
 def audit(event):
     os.makedirs(os.path.join(ROOT, 'audit'), exist_ok=True)
@@ -123,7 +139,8 @@ def main():
     ap.add_argument('--src', required=True); ap.add_argument('--maker', required=True); ap.add_argument('--reviewer', required=True)
     ap.add_argument('--dry-run', action='store_true'); ap.add_argument('--max-rounds', type=int, default=4)
     ap.add_argument('--chunk-words', type=int, default=70); ap.add_argument('--max-calls', type=int, default=40)
-    a = ap.parse_args()
+    ap.add_argument('--env-file', default='~/.bible-shloka/keys.env')
+    a = ap.parse_args(); load_env(a.env_file)
     if a.maker.split(':')[0] == a.reviewer.split(':')[0]:
         raise SystemExit('R2: maker and reviewer must be different vendors')
     d = DIRS[a.book]
